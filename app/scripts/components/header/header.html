@@ -1,0 +1,22 @@
+<div class="navbar navbar-default" role="navigation" ng-controller="HeaderCtrl">
+  <div class="container">
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#/">diwanCorpV3</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+      <ul class="nav navbar-nav" ng-repeat="(key, value) in menus">
+        <li ng-class="{active: value.active}"><a ng-href="#/{{value.adresse}}">{{value.nom}}</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
