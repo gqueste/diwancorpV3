@@ -8,6 +8,13 @@
     },
     {
       "date" : "5 Mai 2015",
+      "newsType" : "jeu",
+      "titre" : "Titre de la news",
+      "descriptif" : "Le descriptif de la news où il se passe des choses"
+    }
+  ,
+    {
+      "date" : "5 Mai 2015",
       "newsType" : "ecrit",
       "titre" : "Titre de la news",
       "descriptif" : "Le descriptif de la news où il se passe des choses"

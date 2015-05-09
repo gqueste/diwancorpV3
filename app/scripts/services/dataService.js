@@ -18,6 +18,9 @@ function DataService($http, $q){
       },
       'ecrit': {
         'image':'plumeicone'
+      },
+      'jeu': {
+        'image':'jeuxicone'
       }
     };
 
