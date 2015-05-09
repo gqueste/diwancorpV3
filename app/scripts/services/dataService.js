@@ -12,10 +12,24 @@
 function DataService($http, $q){
 
   function getLatestNews(){
+    var types = {
+      'saga': {
+        'image':'microicone'
+      },
+      'ecrit': {
+        'image':'plumeicone'
+      }
+    };
+
     var deferred = $q.defer();
 
     $http.get('./data/news.json').success(function(data){
       if(data.hasOwnProperty('news')) {
+
+        for(var i = 0; i < data.news.length; i++){
+          data.news[i].image = types[data.news[i].newsType].image;
+        }
+
         deferred.resolve(data.news);
       }
       else{
