@@ -1,0 +1,19 @@
+{
+  "presentation" : {
+    "titre" : "Les productions de Diwan",
+    "sousTitre" : "Tant d'histoires à vous conter !",
+    "description" : "Sagas mp3, Livres, Jeux de Rôle,... Découvrez les univers endiablés de Diwan et ses contes qui vous emmèneront dans de nouveaux mondes",
+    "affiches" : [
+      {
+        "nom": "Tanirm, Le Bâtard Assoiffé",
+        "description": "Une saga mp3 dans un univers médiéval où un bâtard déshonoré est prêt à tout pour récupérer le trône.",
+        "lien": "sagas/tlba"
+      },
+      {
+        "nom": "Diabolti",
+        "description": "Un livre de fantasy racontant l'histoire du seul magicien de l'histoire de la Confrérie de Tornearde qui ne sache pas utiliser la Magie.",
+        "lien": "ecrits/diabolti"
+      }
+    ]
+  }
+}

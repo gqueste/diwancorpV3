@@ -44,8 +44,25 @@ function DataService($http, $q){
     return deferred.promise;
   }
 
+  function getPresentation(){
+    var deferred = $q.defer();
+
+    $http.get('./data/presentation.json').success(function(data){
+      if(data.hasOwnProperty('presentation')) {
+        deferred.resolve(data.presentation);
+      }
+      else{
+        deferred.reject(new Error('No object news in ./data/presentation.json'));
+      }
+    }).error(function(error){
+      deferred.reject(new Error('No access to ./data/presentation.json ' + error.message));
+    });
+    return deferred.promise;
+  }
+
   return {
-    getLatestNews: getLatestNews
+    getLatestNews: getLatestNews,
+    getPresentation: getPresentation
   };
 }
 
