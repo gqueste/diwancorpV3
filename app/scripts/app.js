@@ -24,8 +24,8 @@ angular
         controller: 'MainCtrl'
       })
       .when('/sagas', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+        templateUrl: 'views/sagas.html',
+        controller: 'SagasCtrl'
       })
       .otherwise({
         redirectTo: '/'

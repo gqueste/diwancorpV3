@@ -1,0 +1,19 @@
+<div class="container-fluid container-principal container-page">
+  <h1>Sagas mp3</h1>
+  <div class="container-a1 container-jaquette col-md-4" ng-repeat="saga in sagas">
+    <ul class="caption-style-1">
+      <li>
+        <a ng-href="#/sagas/{{saga.lien}}"><img ng-src="images/{{saga.jaquette}}" alt="Jaquette pour {{saga.nom}}">
+          <div class="caption">
+            <div class="blur"></div>
+            <div class="caption-text">
+              <h1>{{saga.nom}}</h1>
+              <p>{{saga.description}}</p>
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+

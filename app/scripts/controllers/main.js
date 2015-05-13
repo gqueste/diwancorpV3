@@ -9,13 +9,12 @@
  */
 
 function MainCtrl(DataService, NavigationService, $scope) {
+  NavigationService.setCurrentMenu('accueil');
 
   $scope.news = {};
   $scope.presentation = {};
 
   init();
-
-  NavigationService.setCurrentMenu('accueil');
 
   function init(){
     loadNews();
