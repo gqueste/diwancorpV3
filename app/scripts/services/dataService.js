@@ -16,36 +16,35 @@ function DataService($http, $q){
    * @returns {promise}
    */
   function getLatestNews(){
-    var types = {
-      'saga': {
-        'image':'microicone'
-      },
-      'ecrit': {
-        'image':'plumeicone'
-      },
-      'jeu': {
-        'image':'jeuxicone'
-      }
-    };
-
-    var deferred = $q.defer();
-
-    $http.get('./data/news.json').success(function(data){
-      if(data.hasOwnProperty('news')) {
-
-        for(var i = 0; i < data.news.length; i++){
-          data.news[i].image = types[data.news[i].newsType].image;
+    return $q(function(resolve, reject) {
+      var types = {
+        'saga': {
+          'image':'microicone'
+        },
+        'ecrit': {
+          'image':'plumeicone'
+        },
+        'jeu': {
+          'image':'jeuxicone'
         }
+      };
 
-        deferred.resolve(data.news);
-      }
-      else{
-        deferred.reject(new Error('No object news in ./data/news.json'));
-      }
-    }).error(function(error){
-      deferred.reject(new Error('No access to ./data/news.json ' + error.message));
+      $http.get('./data/news.json').success(function(data){
+        if(data.hasOwnProperty('news')) {
+
+          for(var i = 0; i < data.news.length; i++){
+            data.news[i].image = types[data.news[i].newsType].image;
+          }
+
+          resolve(data.news);
+        }
+        else{
+          reject(new Error('No object news in ./data/news.json'));
+        }
+      }).error(function(error){
+        reject(new Error('No access to ./data/news.json ' + error.message));
+      });
     });
-    return deferred.promise;
   }
 
   /**
@@ -53,19 +52,20 @@ function DataService($http, $q){
    * @returns {promise}
    */
   function getPresentation(){
-    var deferred = $q.defer();
+    return $q(function(resolve, reject) {
 
-    $http.get('./data/presentation.json').success(function(data){
-      if(data.hasOwnProperty('presentation')) {
-        deferred.resolve(data.presentation);
-      }
-      else{
-        deferred.reject(new Error('No object presentation in ./data/presentation.json'));
-      }
-    }).error(function(error){
-      deferred.reject(new Error('No access to ./data/presentation.json ' + error.message));
+      $http.get('./data/presentation.json').success(function(data){
+        if(data.hasOwnProperty('presentation')) {
+          resolve(data.presentation);
+        }
+        else{
+          reject(new Error('No object presentation in ./data/presentation.json'));
+        }
+      }).error(function(error){
+        reject(new Error('No access to ./data/presentation.json ' + error.message));
+      });
+
     });
-    return deferred.promise;
   }
 
   /**
@@ -73,19 +73,20 @@ function DataService($http, $q){
    * @returns {promise}
    */
   function getSagas(){
-    var deferred = $q.defer();
+    return $q(function(resolve, reject) {
 
-    $http.get('./data/sagas.json').success(function(data){
-      if(data.hasOwnProperty('sagas')) {
-        deferred.resolve(data.sagas);
-      }
-      else{
-        deferred.reject(new Error('No object sagas in ./data/sagas.json'));
-      }
-    }).error(function(error){
-      deferred.reject(new Error('No access to ./data/sagas.json ' + error.message));
+      $http.get('./data/sagas.json').success(function(data){
+        if(data.hasOwnProperty('sagas')) {
+          resolve(data.sagas);
+        }
+        else{
+          reject(new Error('No object sagas in ./data/sagas.json'));
+        }
+      }).error(function(error){
+        reject(new Error('No access to ./data/sagas.json ' + error.message));
+      });
     });
-    return deferred.promise;
+    
   }
 
   return {
