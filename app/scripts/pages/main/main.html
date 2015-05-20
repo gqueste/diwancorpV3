@@ -18,13 +18,13 @@
 <div class="container-fluid container-principal">
   <h1>Dernières news</h1>
   <div ng-repeat="currentNews in news">
-    <div class="news-container vertical-align">
+    <div class="news-container">
       <div class="col-md-2">
         <img ng-src="images/news/{{currentNews.image}}.png" alt="{{currentNews.newsType}}">
       </div>
       <div class="col-md-10">
         <div>
-          <h3>{{currentNews.titre}}</h3>
+          <h3 class="titre-news">{{currentNews.titre}}</h3>
           <em><small>{{currentNews.date}}</small></em>
           <div ng-bind-html="currentNews.descriptif"></div>
         </div>
@@ -32,24 +32,4 @@
       <hr>
     </div>
   </div>
-</div>
-
-<div class="marketing">
-
-
-
-  <p>{{news.date}}</p>
-
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
-
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
 </div>

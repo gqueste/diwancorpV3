@@ -4,13 +4,17 @@
 }
 
 .news-container{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: auto;
+}
+
+.saga-container{
   padding-bottom: 20px;
 }
 
 .container-principal{
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 50px;
+  padding : 50px 10% 30px 10%;
 }
 
 .container-page{
@@ -20,4 +24,8 @@
 .container-jaquette{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+h3, .titre-news{
+  margin-top: 0px;
 }
