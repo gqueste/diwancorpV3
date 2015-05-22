@@ -2,24 +2,32 @@
   "sagas":[
     {
       "nom" : "Tanirm, Le Bâtard Assoiffé",
+      "statut" : "En cours",
+      "nbEpisodes" : "9",
       "description" : "Une saga mp3 dans un univers médiéval où un bâtard déshonoré est prêt à tout pour récupérer le trône.",
       "lien": "tlba",
       "jaquette": "tanirm.png"
     },
     {
       "nom" : "Tanirm, Le Bâtard Assoiffé",
+      "nbEpisodes" : "5",
+      "statut" : "Terminée",
       "description" : "Une saga mp3 dans un univers médiéval où un bâtard déshonoré est prêt à tout pour récupérer le trône.",
       "lien": "tlba",
       "jaquette": "tanirm.png"
     },
     {
       "nom" : "Tanirm, Le Bâtard Assoiffé",
+      "statut" : "En pause",
+      "nbEpisodes" : "3",
       "description" : "Une saga mp3 dans un univers médiéval où un bâtard déshonoré est prêt à tout pour récupérer le trône.",
       "lien": "tlba",
       "jaquette": "tanirm.png"
     },
     {
       "nom" : "Tanirm, Le Bâtard Assoiffé",
+      "statut" : "En cours",
+      "nbEpisodes" : "29",
       "description" : "Une saga mp3 dans un univers médiéval où un bâtard déshonoré est prêt à tout pour récupérer le trône.",
       "lien": "tlba",
       "jaquette": "tanirm.png"

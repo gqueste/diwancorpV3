@@ -7,7 +7,8 @@
     <div class="col-md-8">
       <div>
         <a ng-href="#/sagas/{{saga.lien}}"><h2>{{saga.nom}}</h2></a>
-        <p>{{saga.description}}</p>
+        <h4><span class="label label-sagas-status" ng-class='saga.statusClass'>{{saga.statut}}</span><span class="label label-default">9 épisodes</span></h4>
+        {{saga.description}}
       </div>
     </div>
   </div>

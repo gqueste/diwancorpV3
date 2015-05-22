@@ -75,8 +75,25 @@ function DataService($http, $q){
   function getSagas(){
     return $q(function(resolve, reject) {
 
+      var statusUi = {
+        'En cours' : {
+          'labelClass' : 'label-primary'
+        },
+        'Terminée' : {
+          'labelClass' : 'label-success'
+        },
+        'En pause' : {
+          'labelClass' : 'label-warning'
+        }
+      };
+
       $http.get('./data/sagas.json').success(function(data){
         if(data.hasOwnProperty('sagas')) {
+
+          for(var i = 0; i < data.sagas.length; i++){
+            data.sagas[i].statusClass = statusUi[data.sagas[i].statut].labelClass;
+          }
+
           resolve(data.sagas);
         }
         else{
@@ -86,7 +103,7 @@ function DataService($http, $q){
         reject(new Error('No access to ./data/sagas.json ' + error.message));
       });
     });
-    
+
   }
 
   return {
