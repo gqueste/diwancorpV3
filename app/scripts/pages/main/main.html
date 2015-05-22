@@ -18,16 +18,14 @@
 <div class="container-fluid container-principal">
   <h1>Dernières news</h1>
   <div ng-repeat="currentNews in news">
-    <div class="news-container">
-      <div class="col-md-2">
+    <div class="news-container media">
+      <div class="media-left media-middle">
         <img ng-src="images/news/{{currentNews.image}}.png" alt="{{currentNews.newsType}}">
       </div>
-      <div class="col-md-10">
-        <div>
-          <h3 class="titre-news">{{currentNews.titre}}</h3>
-          <em><small>{{currentNews.date}}</small></em>
-          <div ng-bind-html="currentNews.descriptif"></div>
-        </div>
+      <div class="media-body">
+        <h3 class="media-heading">{{currentNews.titre}}</h3>
+        <em><small>{{currentNews.date}}</small></em>
+        <div ng-bind-html="currentNews.descriptif"></div>
       </div>
       <hr>
     </div>
