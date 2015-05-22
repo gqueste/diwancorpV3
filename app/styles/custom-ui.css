@@ -30,6 +30,12 @@
   margin-right: 10px;
 }
 
+.row-thumbnails{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
 .thumbnail-sagas{
   margin-left: 10px;
   margin-right: 10px;
