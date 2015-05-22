@@ -106,10 +106,30 @@ function DataService($http, $q){
 
   }
 
+  /**
+   * Get a representation of the saga whose id is given
+   * @param id of the saga
+   * @returns {promise}
+   */
+  function getSaga(id){
+    return $q(function(resolve, reject){
+      var adresse = './data/sagas/' + id + '.json';
+      $http.get(adresse).success(function(data){
+        resolve(data);
+      }).error(function(error){
+        reject(new Error('No access to ' + adresse + error.message));
+      });
+    });
+  }
+
+
+
+
   return {
     getLatestNews: getLatestNews,
     getPresentation: getPresentation,
-    getSagas : getSagas
+    getSagas : getSagas,
+    getSaga : getSaga
   };
 }
 

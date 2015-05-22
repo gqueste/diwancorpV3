@@ -26,6 +26,11 @@
   padding-bottom: 10px;
 }
 
+.container-element{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .label-sagas-status{
   margin-right: 10px;
 }

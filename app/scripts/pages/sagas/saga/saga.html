@@ -1,0 +1,24 @@
+<div class="container-fluid container-principal container-page">
+  <h1>{{saga.nom}}</h1>
+  <div class="row container-element text-center">
+    <img ng-src="images/{{saga.jaquette}}" alt="Jaquette pour {{saga.nom}}">
+  </div>
+  <div class="row container-element" ng-bind-html="saga.description"></div>
+  <div class="row container-element">
+    <h2>Episodes</h2>
+    <div ng-repeat="episode in saga.episodes">
+      <h3>{{episode.nom}}</h3>
+      <p><em>Sorti le {{episode.dateSortie}}</em></p>
+      <p>{{episode.description}}</p>
+      <p>
+        {{episode.duree}}
+        <audio ng-src="{{episode.lien}}">
+          Votre navigateur ne supporte pas l'élément <code>audio</code>.
+        </audio>
+      </p>
+    </div>
+  </div>
+  <div class="row container-element" ng-if="saga.bonus.length > 0">
+    <h2>Bonus</h2>
+  </div>
+</div>

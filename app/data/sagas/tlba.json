@@ -1,0 +1,90 @@
+{
+  "nom" : "Tanirm, Le Bâtard Assoiffé",
+  "statut" : "En cours",
+  "nbEpisodes" : "9",
+  "description" : "Une saga mp3 dans un univers médiéval où un bâtard déshonoré est prêt à tout pour récupérer le trône.rfeyberb erybre rbv re ebyreu bur yegbi re vyer uye ruyrvey revyueyvre reg urye ryevre ryer yetvrtveyrv er vyetrv saga mp3 dans un univers médiéval où un bâtard déshonoré est prêt à tout pour récupérer le trône.rfeyberb erybre rbv re ebyreu bur yegbi re vyer uye ruyrvey revyueyvre reg urye ryevre ryer yetvrtveyrv er vyetrv",
+  "lien": "tlba",
+  "jaquette": "tanirm.png",
+  "packs" : [
+    {
+      "nom" : "Pack 1",
+      "description" : "La description du pack d'épisodes",
+      "lien" : "machin.zip"
+    },
+    {
+      "nom" : "Pack 2",
+      "description" : "La description du pack d'épisodes",
+      "lien" : "machin.zip"
+    }
+  ],
+  "episodes": [
+    {
+      "nom": "Episode 1",
+      "description" : "Description de l'episode",
+      "duree" : "14 min 30",
+      "dateSortie" : "15 Décembre 2015",
+      "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Nom acteur",
+          "lien" : "http://google.fr/adresse"
+        },
+        {
+          "nom" : "Nom acteur",
+          "lien" : "http://google.fr/adresse"
+        }
+      ],
+      "docs" : [
+        {
+          "nom" : "Nom du doc",
+          "lien" : "doc.pdf"
+        },
+        {
+          "nom" : "Nom du doc",
+          "lien" : "doc.pdf"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 1",
+      "description" : "Description de l'episode",
+      "duree" : "14 min 30",
+      "dateSortie" : "15 Décembre 2015",
+      "lien" : "episode.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Nom acteur",
+          "lien" : "http://google.fr/adresse"
+        },
+        {
+          "nom" : "Nom acteur",
+          "lien" : "http://google.fr/adresse"
+        }
+      ],
+      "docs" : [
+        {
+          "nom" : "Nom du doc",
+          "lien" : "doc.pdf"
+        },
+        {
+          "nom" : "Nom du doc",
+          "lien" : "doc.pdf"
+        }
+      ]
+    }
+  ],
+  "bonus":[
+    {
+      "nom" : "bonus 1",
+      "description" : "Description du bonus",
+      "type" : "mp3",
+      "lien" : "episode.mp3"
+    },
+    {
+      "nom" : "bonus 2",
+      "description" : "Description du bonus",
+      "type" : "pdf",
+      "lien" : "episode.mp3"
+    }
+  ]
+}
