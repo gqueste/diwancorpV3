@@ -8,9 +8,9 @@
     <h2>Episodes</h2>
     <div ng-repeat="episode in saga.episodes">
       <h3>{{episode.nom}}</h3>
-      <p><em>Sorti le {{episode.dateSortie}}</em></p>
+      <p><i class="fa fa-calendar"></i><em> Sorti le {{episode.dateSortie}}</em></p>
       <p>{{episode.description}}</p>
-      <p>{{episode.duree}}</p>
+      <p><i class="fa fa-clock-o"></i> {{episode.duree}}</p>
       <div class="row container-element">
         <div class="col-md-10">
           <videogular vg-theme="bower_components/videogular-themes-default/videogular.css" class="videogular-container">
