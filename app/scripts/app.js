@@ -16,7 +16,9 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'com.2fdevs.videogular',
+    'com.2fdevs.videogular.plugins.controls',
   ])
   .config(function ($routeProvider) {
     $routeProvider

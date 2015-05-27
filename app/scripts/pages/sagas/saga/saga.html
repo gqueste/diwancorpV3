@@ -12,9 +12,21 @@
       <p>{{episode.description}}</p>
       <p>
         {{episode.duree}}
-        <audio ng-src="{{episode.lien}}">
-          Votre navigateur ne supporte pas l'élément <code>audio</code>.
-        </audio>
+        <videogular vg-theme="bower_components/videogular-themes-default/videogular.css" class="videogular-container">
+          <vg-media vg-src="episode.audio" vg-type="audio"></vg-media>
+          <vg-controls>
+            <vg-play-pause-button></vg-play-pause-button>
+            <vg-time-display>{{ currentTime | date:'mm:ss' }}</vg-time-display>
+            <vg-scrub-bar>
+              <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+            </vg-scrub-bar>
+            <vg-time-display>{{ timeLeft | date:'mm:ss' }}</vg-time-display>
+            <vg-volume>
+              <vg-mute-button></vg-mute-button>
+              <vg-volume-bar></vg-volume-bar>
+            </vg-volume>
+          </vg-controls>
+        </videogular>
       </p>
     </div>
   </div>

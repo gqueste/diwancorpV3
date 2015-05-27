@@ -9,7 +9,7 @@
  * Service to return data
  */
 
-function DataService($http, $q){
+function DataService($http, $q, $sce){
 
   /**
    * Get a list of the latest news
@@ -115,6 +115,14 @@ function DataService($http, $q){
     return $q(function(resolve, reject){
       var adresse = './data/sagas/' + id + '.json';
       $http.get(adresse).success(function(data){
+        for(var i = 0; i < data.episodes.length; i++){
+          var episode = data.episodes[i];
+          episode.audio = [
+            {
+              src : $sce.trustAsResourceUrl(episode.lien), type:'audio/mpeg'
+            }
+          ];
+        }
         resolve(data);
       }).error(function(error){
         reject(new Error('No access to ' + adresse + error.message));

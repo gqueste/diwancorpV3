@@ -23,7 +23,7 @@
       "description" : "Description de l'episode",
       "duree" : "14 min 30",
       "dateSortie" : "15 Décembre 2015",
-      "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3",
       "acteurs" : [
         {
           "nom" : "Nom acteur",
@@ -50,7 +50,7 @@
       "description" : "Description de l'episode",
       "duree" : "14 min 30",
       "dateSortie" : "15 Décembre 2015",
-      "lien" : "episode.mp3",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3",
       "acteurs" : [
         {
           "nom" : "Nom acteur",
