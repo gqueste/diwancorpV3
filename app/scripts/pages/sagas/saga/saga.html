@@ -10,27 +10,33 @@
       <h3>{{episode.nom}}</h3>
       <p><em>Sorti le {{episode.dateSortie}}</em></p>
       <p>{{episode.description}}</p>
-      <p>
-        {{episode.duree}}
-        <videogular vg-theme="bower_components/videogular-themes-default/videogular.css" class="videogular-container">
-          <vg-media vg-src="episode.audio" vg-type="audio"></vg-media>
-          <vg-controls>
-            <vg-play-pause-button></vg-play-pause-button>
-            <vg-time-display>{{ currentTime | date:'mm:ss' }}</vg-time-display>
-            <vg-scrub-bar>
-              <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
-            </vg-scrub-bar>
-            <vg-time-display>{{ timeLeft | date:'mm:ss' }}</vg-time-display>
-            <vg-volume>
-              <vg-mute-button></vg-mute-button>
-              <vg-volume-bar></vg-volume-bar>
-            </vg-volume>
-          </vg-controls>
-        </videogular>
-      </p>
+      <p>{{episode.duree}}</p>
+      <div class="row container-element">
+        <div class="col-md-10">
+          <videogular vg-theme="bower_components/videogular-themes-default/videogular.css" class="videogular-container">
+            <vg-media vg-src="episode.audio" vg-type="audio"></vg-media>
+            <vg-controls>
+              <vg-play-pause-button></vg-play-pause-button>
+              <vg-time-display>{{ currentTime | date:'mm:ss' }}</vg-time-display>
+              <vg-scrub-bar>
+                <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+              </vg-scrub-bar>
+              <vg-time-display>{{ timeLeft | date:'mm:ss' }}</vg-time-display>
+              <vg-volume>
+                <vg-mute-button></vg-mute-button>
+                <vg-volume-bar></vg-volume-bar>
+              </vg-volume>
+            </vg-controls>
+          </videogular>
+        </div>
+        <div class="col-md-2 text-center">
+          <a ng-href="{{episode.lien}}" class="fa fa-download fa-4x" download></a>
+        </div>
+      </div>
     </div>
   </div>
   <div class="row container-element" ng-if="saga.bonus.length > 0">
     <h2>Bonus</h2>
   </div>
+  <p>TIP : Si vous n'arrivez pas à télécharger les épisodes, Clic-Droit puis Enregistrez sous...</p>
 </div>
