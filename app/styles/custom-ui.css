@@ -35,7 +35,7 @@
   margin-right: 10px;
 }
 
-.row-thumbnails{
+.row-thumbnails-lines{
   display:flex;
   flex-wrap: wrap;
 }
