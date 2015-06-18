@@ -1,0 +1,95 @@
+{
+  "ecrits":
+  {
+    "livres":[
+      {
+        "nom": "Diabolti",
+        "statut": "En cours",
+        "description": "description du livre",
+        "lien" : "diabolti",
+        "jaquette" : "tanirm.png"
+      },
+      {
+        "nom": "Diabolti",
+        "statut": "En cours",
+        "description": "description du livre",
+        "lien" : "diabolti",
+        "jaquette" : "tanirm.png"
+      },
+      {
+        "nom": "Diabolti",
+        "statut": "En cours",
+        "description": "description du livre",
+        "lien" : "diabolti",
+        "jaquette" : "tanirm.png"
+      },
+      {
+        "nom": "Diabolti",
+        "statut": "En cours",
+        "description": "description du livre",
+        "lien" : "diabolti",
+        "jaquette" : "tanirm.png"
+      }
+    ],
+    "scenariosJDR":[
+      {
+        "nom": "Diabolti",
+        "statut": "En cours",
+        "description": "description du livre",
+        "lien" : "diabolti",
+        "jaquette" : "tanirm.png"
+      },
+      {
+        "nom": "Diabolti",
+        "statut": "En cours",
+        "description": "description du livre",
+        "lien" : "diabolti",
+        "jaquette" : "tanirm.png"
+      },
+      {
+        "nom": "Diabolti",
+        "statut": "En cours",
+        "description": "description du livre",
+        "lien" : "diabolti",
+        "jaquette" : "tanirm.png"
+      },
+      {
+        "nom": "Diabolti",
+        "statut": "En cours",
+        "description": "description du livre",
+        "lien" : "diabolti",
+        "jaquette" : "tanirm.png"
+      }
+    ],
+    "nouvelles":[
+      {
+        "nom": "Diabolti",
+        "statut": "En cours",
+        "description": "description du livre",
+        "lien" : "diabolti",
+        "jaquette" : "tanirm.png"
+      },
+      {
+        "nom": "Diabolti",
+        "statut": "En cours",
+        "description": "description du livre",
+        "lien" : "diabolti",
+        "jaquette" : "tanirm.png"
+      },
+      {
+        "nom": "Diabolti",
+        "statut": "En cours",
+        "description": "description du livre",
+        "lien" : "diabolti",
+        "jaquette" : "tanirm.png"
+      },
+      {
+        "nom": "Diabolti",
+        "statut": "En cours",
+        "description": "description du livre",
+        "lien" : "diabolti",
+        "jaquette" : "tanirm.png"
+      }
+    ]
+  }
+}
