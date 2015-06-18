@@ -94,7 +94,7 @@
       "nom" : "bonus 1",
       "description" : "Description du bonus",
       "type" : "mp3",
-      "lien" : "episode.mp3"
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
     },
     {
       "nom" : "bonus 2",

@@ -123,6 +123,18 @@ function DataService($http, $q, $sce){
             }
           ];
         }
+
+        for(var j = 0; j < data.bonus.length; j++){
+          var bonus = data.bonus[j];
+          if(bonus.type === 'mp3'){
+            bonus.audio = [
+              {
+                src : $sce.trustAsResourceUrl(bonus.lien), type:'audio/mpeg'
+              }
+            ];
+          }
+        }
+
         resolve(data);
       }).error(function(error){
         reject(new Error('No access to ' + adresse + error.message));
