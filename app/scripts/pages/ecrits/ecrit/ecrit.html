@@ -1,0 +1,18 @@
+<div class="container-fluid container-principal container-page">
+  <h1>{{ecrit.nom}}</h1>
+  <div class="row container-element text-center">
+    <img ng-src="images/{{ecrit.image}}" alt="Image pour {{ecrit.nom}}">
+  </div>
+  <div class="row container-element" ng-bind-html="ecrit.description"></div>
+  <div class="row container-element">
+    <h2>Chapitres</h2>
+    <div ng-repeat="chapitre in ecrit.chapitres">
+      <h3>{{chapitre.nom}}</h3>
+      <p><i class="fa fa-calendar"></i><em> Sorti le {{chapitre.dateSortie}}</em></p>
+      <p>{{chapitre.description}}</p>
+      <p><i class="fa fa-book"></i> {{chapitre.nbPages}} pages</p>
+      <a ng-href="{{chapitre.lien}}"><h4><i class="fa fa-file-pdf-o"></i> Lire {{ecrit.nom}} - {{chapitre.nom}}</h4></a>
+      <hr>
+    </div>
+  </div>
+</div>

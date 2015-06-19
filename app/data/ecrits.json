@@ -7,88 +7,53 @@
         "statut": "En cours",
         "description": "description du livre",
         "lien" : "diabolti",
-        "jaquette" : "tanirm.png"
+        "jaquette" : "tanirm.png",
+        "nbChapitres" : 3,
+        "nbPages" : 140
       },
       {
         "nom": "Diabolti",
         "statut": "En cours",
         "description": "description du livre",
         "lien" : "diabolti",
-        "jaquette" : "tanirm.png"
+        "jaquette" : "tanirm.png",
+        "nbChapitres" : 3,
+        "nbPages" : 140
       },
       {
         "nom": "Diabolti",
         "statut": "En cours",
         "description": "description du livre",
         "lien" : "diabolti",
-        "jaquette" : "tanirm.png"
+        "jaquette" : "tanirm.png",
+        "nbChapitres" : 3,
+        "nbPages" : 140
       },
       {
         "nom": "Diabolti",
         "statut": "En cours",
         "description": "description du livre",
         "lien" : "diabolti",
-        "jaquette" : "tanirm.png"
+        "jaquette" : "tanirm.png",
+        "nbChapitres" : 3,
+        "nbPages" : 140
       }
     ],
-    "scenariosJDR":[
+    "scenariosJDR":
+    [
       {
-        "nom": "Diabolti",
-        "statut": "En cours",
-        "description": "description du livre",
-        "lien" : "diabolti",
-        "jaquette" : "tanirm.png"
+        "nom" : "Shadowrun",
+        "description" : "Description du JDR",
+        "image" : "tanirm.png",
+        "lien" : "shadowrun",
+        "nbScenarios" : 5
       },
       {
-        "nom": "Diabolti",
-        "statut": "En cours",
-        "description": "description du livre",
-        "lien" : "diabolti",
-        "jaquette" : "tanirm.png"
-      },
-      {
-        "nom": "Diabolti",
-        "statut": "En cours",
-        "description": "description du livre",
-        "lien" : "diabolti",
-        "jaquette" : "tanirm.png"
-      },
-      {
-        "nom": "Diabolti",
-        "statut": "En cours",
-        "description": "description du livre",
-        "lien" : "diabolti",
-        "jaquette" : "tanirm.png"
-      }
-    ],
-    "nouvelles":[
-      {
-        "nom": "Diabolti",
-        "statut": "En cours",
-        "description": "description du livre",
-        "lien" : "diabolti",
-        "jaquette" : "tanirm.png"
-      },
-      {
-        "nom": "Diabolti",
-        "statut": "En cours",
-        "description": "description du livre",
-        "lien" : "diabolti",
-        "jaquette" : "tanirm.png"
-      },
-      {
-        "nom": "Diabolti",
-        "statut": "En cours",
-        "description": "description du livre",
-        "lien" : "diabolti",
-        "jaquette" : "tanirm.png"
-      },
-      {
-        "nom": "Diabolti",
-        "statut": "En cours",
-        "description": "description du livre",
-        "lien" : "diabolti",
-        "jaquette" : "tanirm.png"
+        "nom" : "COPS",
+        "description" : "Description du JDR",
+        "image" : "tanirm.png",
+        "lien" : "cops",
+        "nbScenarios" : 5
       }
     ]
   }

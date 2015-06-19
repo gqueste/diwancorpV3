@@ -11,6 +11,18 @@
 
 function DataService($http, $q, $sce){
 
+  var statusUi = {
+    'En cours' : {
+      'labelClass' : 'label-primary'
+    },
+    'Terminée' : {
+      'labelClass' : 'label-success'
+    },
+    'En pause' : {
+      'labelClass' : 'label-warning'
+    }
+  };
+
   /**
    * Get a list of the latest news
    * @returns {promise}
@@ -75,24 +87,10 @@ function DataService($http, $q, $sce){
   function getSagas(){
     return $q(function(resolve, reject) {
 
-      var statusUi = {
-        'En cours' : {
-          'labelClass' : 'label-primary'
-        },
-        'Terminée' : {
-          'labelClass' : 'label-success'
-        },
-        'En pause' : {
-          'labelClass' : 'label-warning'
-        }
-      };
-
       $http.get('./data/sagas.json').success(function(data){
-        if(data.hasOwnProperty('sagas')) {
 
-          for(var i = 0; i < data.sagas.length; i++){
-            data.sagas[i].statusClass = statusUi[data.sagas[i].statut].labelClass;
-          }
+        if(data.hasOwnProperty('sagas')) {
+          addStatutsClass(data.sagas);
 
           resolve(data.sagas);
         }
@@ -103,7 +101,6 @@ function DataService($http, $q, $sce){
         reject(new Error('No access to ./data/sagas.json ' + error.message));
       });
     });
-
   }
 
   /**
@@ -145,11 +142,70 @@ function DataService($http, $q, $sce){
 
 
 
+  /**
+   * Get a list of all ecrits
+   * @returns {promise}
+   */
+  function getEcrits(){
+    return $q(function(resolve, reject) {
+
+      $http.get('./data/ecrits.json').success(function(data){
+        if(data.hasOwnProperty('ecrits')) {
+          var ecrits = data.ecrits;
+          if(ecrits.hasOwnProperty('livres')){
+            addStatutsClass(ecrits.livres);
+          }
+          resolve(data.ecrits);
+        }
+        else{
+          reject(new Error('No object ecrits in ./data/ecrits.json'));
+        }
+      }).error(function(error){
+        reject(new Error('No access to ./data/ecrits.json ' + error.message));
+      });
+    });
+  }
+
+
+  /**
+   * Get a representation of the ecrit whose id is given
+   * @param id of the ecrit
+   * @returns {promise}
+   */
+  function getEcrit(id){
+    return $q(function(resolve, reject){
+      var adresse = './data/ecrits/' + id + '.json';
+      $http.get(adresse).success(function(data){
+        resolve(data);
+      }).error(function(error){
+        reject(new Error('No access to ' + adresse + error.message));
+      });
+    });
+  }
+
+
+  /**
+   * Add a statut Class based on typical status
+   * @param data
+   */
+  function addStatutsClass(data){
+    for(var i = 0; i < data.length; i++){
+      if(data[i].hasOwnProperty('statut')){
+        data[i].statusClass = statusUi[data[i].statut].labelClass;
+      }
+    }
+  }
+
+
+
+
   return {
     getLatestNews: getLatestNews,
     getPresentation: getPresentation,
     getSagas : getSagas,
-    getSaga : getSaga
+    getSaga : getSaga,
+    getEcrits : getEcrits,
+    getEcrit : getEcrit
   };
 }
 

@@ -1,0 +1,36 @@
+{
+  "nom" : "Diabolti",
+  "description" : "Description du bouquin",
+  "lien" : "diabolti",
+  "image" : "tanirm.png",
+  "chapitres" : [
+    {
+      "nom" : "Chapitre 1",
+      "description" : "Description du chapitre",
+      "nbPages" : 15,
+      "dateSortie" : "15 Décembre 2015",
+      "lien" : "lien.pdf"
+    },
+    {
+      "nom" : "Chapitre 1",
+      "description" : "Description du chapitre",
+      "nbPages" : 15,
+      "dateSortie" : "15 Décembre 2015",
+      "lien" : "lien.pdf"
+    },
+    {
+      "nom" : "Chapitre 1",
+      "description" : "Description du chapitre",
+      "nbPages" : 15,
+      "dateSortie" : "15 Décembre 2015",
+      "lien" : "lien.pdf"
+    },
+    {
+      "nom" : "Chapitre 1",
+      "description" : "Description du chapitre",
+      "nbPages" : 15,
+      "dateSortie" : "15 Décembre 2015",
+      "lien" : "lien.pdf"
+    }
+  ]
+}

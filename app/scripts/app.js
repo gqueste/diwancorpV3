@@ -34,6 +34,14 @@ angular
         templateUrl: '/scripts/pages/sagas/saga/saga.html',
         controller: 'SagaCtrl'
       })
+      .when('/ecrits', {
+        templateUrl: '/scripts/pages/ecrits/ecrits.html',
+        controller: 'EcritsCtrl'
+      })
+      .when('/ecrits/:idEcrit', {
+        templateUrl: '/scripts/pages/ecrits/ecrit/ecrit.html',
+        controller: 'EcritCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

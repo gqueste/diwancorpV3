@@ -10,6 +10,7 @@
       <h3>{{pack.nom}}</h3>
       <p><em>{{pack.description}}</em></p>
       <a ng-href="{{pack.lien}}" class="fa fa-file-archive-o fa-4x"></a>
+      <hr>
     </div>
   </div>
   <div class="row container-element">
@@ -44,17 +45,18 @@
       <h4>Acteurs :</h4>
       <div class="row container-element">
         <div class="col-md-3" ng-repeat="acteur in episode.acteurs">
-          <a ng-href="acteur.lien">{{acteur.nom}}</a>
+          <a ng-href="{{acteur.lien}}">{{acteur.nom}}</a>
         </div>
       </div>
       <div ng-if="episode.docs.length > 0">
         <h4>Documents :</h4>
         <div class="row container-element">
           <div class="col-md-3" ng-repeat="doc in episode.docs">
-            <a ng-href="doc.lien"><i class="fa fa-file-pdf-o"></i> {{doc.nom}}</a>
+            <a ng-href="{{doc.lien}}"><i class="fa fa-file-pdf-o"></i> {{doc.nom}}</a>
           </div>
         </div>
       </div>
+      <hr>
     </div>
   </div>
   <div class="row container-element" ng-if="saga.bonus.length > 0">
@@ -87,8 +89,9 @@
         </div>
       </div>
       <div ng-if="bonus.type == 'pdf'">
-        <a ng-href="bonus.lien"><i class="fa fa-file-pdf-o"></i> {{bonus.nom}}</a>
+        <a ng-href="{{bonus.lien}}"><i class="fa fa-file-pdf-o"></i> {{bonus.nom}}</a>
       </div>
+      <hr>
     </div>
   </div>
   <p>TIP : Si vous n'arrivez pas à télécharger les épisodes, Clic-Droit puis Enregistrez sous...</p>
