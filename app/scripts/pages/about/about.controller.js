@@ -9,13 +9,7 @@
  */
 
 function AboutCtrl($scope, NavigationService) {
-  NavigationService.setCurrentMenu('sagas');
-
-  $scope.awesomeThings = [
-    'HTML5 Boilerplate',
-    'AngularJS',
-    'Karma'
-  ];
+  NavigationService.setCurrentMenu('diwan');
 }
 
 

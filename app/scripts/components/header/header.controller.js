@@ -29,10 +29,10 @@ function HeaderCtrl(NavigationService, $scope) {
       'nom': 'Ecrits',
       'active': false
     },
-    '3_jeuxMenu': {
-      'id': 'jeux',
-      adresse: 'jeux',
-      'nom': 'Jeux',
+    '3_diwan': {
+      'id': 'diwan',
+      adresse: 'diwan',
+      'nom': 'A propos',
       'active': false
     },
     '4_partenairesMenu': {

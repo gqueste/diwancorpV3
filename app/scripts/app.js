@@ -42,6 +42,10 @@ angular
         templateUrl: '/scripts/pages/ecrits/ecrit/ecrit.html',
         controller: 'EcritCtrl'
       })
+      .when('/diwan', {
+        templateUrl: '/scripts/pages/about/about.html',
+        controller: 'AboutCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
