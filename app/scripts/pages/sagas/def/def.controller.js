@@ -9,8 +9,10 @@
    * Controller of the diwancorpApp
    */
 
-  function DefCtrl($scope, NavigationService, DefService) {
+  function DefCtrl($scope, NavigationService, DefService, $routeParams) {
     NavigationService.setCurrentMenu('sagas');
+
+    var capsuleID = $routeParams.idCapsule;
 
     DefService.fetchAllCapsules();
 
@@ -26,5 +28,5 @@
     .module('diwancorpApp')
     .controller('DefCtrl', DefCtrl);
 
-  DefCtrl.$inject = ['$scope', 'NavigationService', 'DefService'];
+  DefCtrl.$inject = ['$scope', 'NavigationService', 'DefService', '$routeParams'];
 })();

@@ -16,11 +16,13 @@ function DefService(DataService){
    * Stock all the capsules and the next
    */
   function fetchAllCapsules(){
-    DataService.getCapsulesDef().then(function(data){
-      capsules = data;
-    }, function(error){
-      console.log(error.message);
-    });
+    if(capsules.length === 0){
+      DataService.getCapsulesDef().then(function(data){
+        capsules = data;
+      }, function(error){
+        console.log(error.message);
+      });
+    }
   }
 
   /**
