@@ -34,6 +34,10 @@ angular
         templateUrl: '/scripts/pages/sagas/saga/saga.html',
         controller: 'SagaCtrl'
       })
+      .when('/sagas/def/jeu', {
+        templateUrl: '/scripts/pages/sagas/def/def.html',
+        controller: 'DefCtrl'
+      })
       .when('/ecrits', {
         templateUrl: '/scripts/pages/ecrits/ecrits.html',
         controller: 'EcritsCtrl'

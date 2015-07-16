@@ -198,6 +198,27 @@ function DataService($http, $q, $sce){
     }
   }
 
+  /**
+   * Get the object representing the def capsules for the online game
+   * @returns {promise}
+   */
+  function getCapsulesDef(){
+    return $q(function(resolve, reject) {
+
+      $http.get('./data/sagas/def-next.json').success(function(data){
+        if(data.hasOwnProperty('next')) {
+          resolve(data.next);
+        }
+        else{
+          reject(new Error('No object presentation in ./data/sagas/def-next.json'));
+        }
+      }).error(function(error){
+        reject(new Error('No access to ./data/sagas/def-next.json ' + error.message));
+      });
+
+    });
+  }
+
 
 
 
@@ -207,7 +228,8 @@ function DataService($http, $q, $sce){
     getSagas : getSagas,
     getSaga : getSaga,
     getEcrits : getEcrits,
-    getEcrit : getEcrit
+    getEcrit : getEcrit,
+    getCapsulesDef : getCapsulesDef
   };
 }
 
