@@ -121,14 +121,16 @@ function DataService($http, $q, $sce){
           ];
         }
 
-        for(var j = 0; j < data.bonus.length; j++){
-          var bonus = data.bonus[j];
-          if(bonus.type === 'mp3'){
-            bonus.audio = [
-              {
-                src : $sce.trustAsResourceUrl(bonus.lien), type:'audio/mpeg'
-              }
-            ];
+        if(data.hasOwnProperty('bonus')){
+          for(var j = 0; j < data.bonus.length; j++){
+            var bonus = data.bonus[j];
+            if(bonus.type === 'mp3'){
+              bonus.audio = [
+                {
+                  src : $sce.trustAsResourceUrl(bonus.lien), type:'audio/mpeg'
+                }
+              ];
+            }
           }
         }
 

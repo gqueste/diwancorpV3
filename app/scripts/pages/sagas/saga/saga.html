@@ -17,9 +17,9 @@
     <h2>Episodes</h2>
     <div ng-repeat="episode in saga.episodes">
       <h3>{{episode.nom}}</h3>
-      <p><i class="fa fa-calendar"></i><em> Sorti le {{episode.dateSortie}}</em></p>
-      <p>{{episode.description}}</p>
-      <p><i class="fa fa-clock-o"></i> {{episode.duree}}</p>
+      <p ng-if="episode.dateSortie"><i class="fa fa-calendar"></i><em> Sorti le {{episode.dateSortie}}</em></p>
+      <p ng-if="episode.description">{{episode.description}}</p>
+      <p ng-if="episode.duree"><i class="fa fa-clock-o"></i> {{episode.duree}}</p>
       <div class="row container-element">
         <div class="col-md-10">
           <videogular vg-theme="bower_components/videogular-themes-default/videogular.css" class="videogular-container">
@@ -42,10 +42,12 @@
           <a ng-href="{{episode.lien}}" class="fa fa-download fa-4x" download></a>
         </div>
       </div>
-      <h4>Acteurs :</h4>
-      <div class="row container-element">
-        <div class="col-md-3" ng-repeat="acteur in episode.acteurs">
-          <a ng-href="{{acteur.lien}}">{{acteur.nom}}</a>
+      <div ng-if="episode.acteurs.length > 0">
+        <h4>Acteurs :</h4>
+        <div class="row container-element">
+          <div class="col-md-3" ng-repeat="acteur in episode.acteurs">
+            <a ng-href="{{acteur.lien}}">{{acteur.nom}}</a>
+          </div>
         </div>
       </div>
       <div ng-if="episode.docs.length > 0">

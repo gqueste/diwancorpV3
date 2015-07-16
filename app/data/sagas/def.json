@@ -1,0 +1,77 @@
+{
+  "nom" : "Le Donjon en Folie",
+  "statut" : "En pause",
+  "nbEpisodes" : "26",
+  "description" : "Une saga mp3 dont vous etes le heros. <p><a href='#/sagas/def/jeu'>Jouer interactivement</a></p><p>Avec Aslag,...</p>",
+  "lien": "def",
+  "jaquette": "tanirm.png",
+  "packs" : [
+    {
+      "nom" : "Pack 1",
+      "description" : "La description du pack d'épisodes",
+      "lien" : "machin.zip"
+    },
+    {
+      "nom" : "Pack 2",
+      "description" : "La description du pack d'épisodes",
+      "lien" : "machin.zip"
+    }
+  ],
+  "episodes": [
+    {
+      "nom": "Donjon En folie - Partie 00",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    },
+    {
+      "nom": "Donjon En folie - Partie 01",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    },
+    {
+      "nom": "Donjon En folie - Partie 04",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    },
+    {
+      "nom": "Donjon En folie - Partie 07",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    },
+    {
+      "nom": "Donjon En folie - Partie 09",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    },
+    {
+      "nom": "Donjon En folie - Partie 13",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    },
+    {
+      "nom": "Donjon En folie - Partie 14",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    },
+    {
+      "nom": "Donjon En folie - Partie 18",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    },{
+      "nom": "Donjon En folie - Partie 21",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    },
+    {
+      "nom": "Donjon En folie - Partie 22",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    },
+    {
+      "nom": "Donjon En folie - Partie 25",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    },
+    {
+      "nom": "Donjon En folie - Partie 26",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    },
+    {
+      "nom": "Donjon En folie - Partie 39",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    },
+    {
+      "nom": "Donjon En folie - Partie 44",
+      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+    }
+  ]
+}
