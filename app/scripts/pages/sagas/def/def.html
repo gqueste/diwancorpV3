@@ -1,3 +1,32 @@
 <div class="container-fluid container-principal container-page">
   <h1>Jouer au Donjon En Folie</h1>
+  <h2>Capsule {{capsule.id}}</h2>
+  <div ng-if="capsule.id === '00'" class="container-element">
+    <p class="text-center">Bienvenue au debut de l'aventure !</p>
+  </div>
+  <div class="container-element">
+    <videogular vg-theme="bower_components/videogular-themes-default/videogular.css" class="videogular-container">
+      <vg-media vg-src="capsule.audio" vg-type="audio"></vg-media>
+      <vg-controls>
+        <vg-play-pause-button></vg-play-pause-button>
+        <vg-time-display>{{ currentTime | date:'mm:ss' }}</vg-time-display>
+        <vg-scrub-bar>
+          <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+        </vg-scrub-bar>
+        <vg-time-display>{{ timeLeft | date:'mm:ss' }}</vg-time-display>
+        <vg-volume>
+          <vg-mute-button></vg-mute-button>
+          <vg-volume-bar></vg-volume-bar>
+        </vg-volume>
+      </vg-controls>
+    </videogular>
+  </div>
+  <div class="text-center">
+    <div ng-repeat="next in capsule.next" class="container-element">
+      <a ng-href="#/sagas/def/jeu/{{next.id}}">Choix N {{$index + 1}}</a>
+    </div>
+  </div>
+  <div ng-if="capsule.id === '04'" class="container-element text-center">
+    Fin de l'aventure... Pour le moment. CONGRATS !
+  </div>
 </div>
