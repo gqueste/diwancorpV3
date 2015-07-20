@@ -1,33 +1,33 @@
-<div class="jumbotron">
-  <h1>{{presentation.titre}}</h1>
-  <h3><em>{{presentation.sousTitre}}</em></h3>
-  <p class="lead">
-    {{presentation.description}}
-  </p>
-  <hr>
-  <h2>A l'affiche</h2>
-  <div class="container">
-    <div class="col-md-6" ng-repeat="affiche in presentation.affiches">
-      <p><strong>{{affiche.nom}}</strong></p>
-      <p>{{affiche.description}}</p>
-      <a ng-href="#/{{affiche.lien}}"><button class="btn btn-default">Y aller</button></a>
-    </div>
-  </div>
-</div>
-
 <div class="container-fluid container-principal">
-  <h1>Dernières news</h1>
-  <div ng-repeat="currentNews in news">
-    <div class="news-container media">
-      <div class="media-left media-middle">
-        <img ng-src="images/news/{{currentNews.image}}.png" alt="{{currentNews.newsType}}">
+  <div class="jumbotron">
+    <h1>{{presentation.titre}}</h1>
+    <h3><em>{{presentation.sousTitre}}</em></h3>
+    <p class="lead">
+      {{presentation.description}}
+    </p>
+    <hr>
+    <h2>A l'affiche</h2>
+    <div class="container">
+      <div class="col-md-6" ng-repeat="affiche in presentation.affiches">
+        <p><strong>{{affiche.nom}}</strong></p>
+        <p>{{affiche.description}}</p>
+        <a ng-href="#/{{affiche.lien}}"><button class="btn btn-default">Y aller</button></a>
       </div>
-      <div class="media-body">
-        <h3 class="media-heading">{{currentNews.titre}}</h3>
-        <em><small>{{currentNews.date}}</small></em>
-        <div ng-bind-html="currentNews.descriptif"></div>
-      </div>
-      <hr>
     </div>
   </div>
+
+    <h1>Dernières news</h1>
+    <div ng-repeat="currentNews in news">
+      <div class="news-container media">
+        <div class="media-left media-middle">
+          <img ng-src="images/news/{{currentNews.image}}.png" alt="{{currentNews.newsType}}">
+        </div>
+        <div class="media-body">
+          <h3 class="media-heading">{{currentNews.titre}}</h3>
+          <em><small>{{currentNews.date}}</small></em>
+          <div ng-bind-html="currentNews.descriptif"></div>
+        </div>
+        <hr>
+      </div>
+    </div>
 </div>

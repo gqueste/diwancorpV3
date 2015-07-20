@@ -14,5 +14,4 @@
     .module('diwancorpApp')
     .directive('diwancorpHeader', diwancorpHeader);
 
-  SagaCtrl.$inject = [];
 })();
