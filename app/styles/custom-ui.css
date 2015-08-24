@@ -84,3 +84,8 @@ img {
   height: initial;
   max-width: none;
 }
+
+.navbar-brand > img{
+  padding-bottom: 32px;
+  height: inherit;
+}
