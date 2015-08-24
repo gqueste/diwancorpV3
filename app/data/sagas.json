@@ -4,33 +4,73 @@
       "nom" : "Tanirm, Le Bâtard Assoiffé",
       "statut" : "En cours",
       "nbEpisodes" : "9",
-      "description" : "Une saga mp3 dans un univers médiéval où un bâtard déshonoré est prêt à tout pour récupérer le trône.rfeyberb erybre rbv re ebyreu bur yegbi re vyer uye ruyrvey revyueyvre reg urye ryevre ryer yetvrtveyrv er vyetrv saga mp3 dans un univers médiéval où un bâtard déshonoré est prêt à tout pour récupérer le trône.rfeyberb erybre rbv re ebyreu bur yegbi re vyer uye ruyrvey revyueyvre reg urye ryevre ryer yetvrtveyrv er vyetrv",
+      "description" : "Une saga mp3 de fantasy riche où vous suivez les aventures de Tanirm, Bâtard du roi dans sa tentative pour monter sur le trône.",
       "lien": "tlba",
       "jaquette": "tanirm.png"
+    },
+    {
+      "nom" : "Pokémon, l'Arche de la Victoire",
+      "statut" : "Terminée",
+      "nbEpisodes" : "8",
+      "description" : "Une saga mp3 basée sur l'univers de Pokémon et qui retrace le parcours d'un jeune dresseur, en se basant sur les codes des premières saisons de l'anime (151 premiers Pokémons).",
+      "lien": "pokemon",
+      "jaquette": "pokemon.png"
     },
     {
       "nom" : "Le Donjon En Folie",
       "nbEpisodes" : "26",
       "statut" : "En pause",
-      "description" : "Une saga mp3 dont vous etes le heros. Menez une troupe d'aventuriers a travers les differents pieges du Donjon. A telecharger ou a jouer en ligne.",
+      "description" : "Une saga mp3 dont vous êtes le heros. Menez une troupe d'aventuriers à travers les différents pièges du Donjon. A télécharger ou à jouer en ligne.",
       "lien": "def",
-      "jaquette": "tanirm.png"
+      "jaquette": "def.png"
     },
     {
-      "nom" : "Tanirm, Le Bâtard Assoiffé",
+      "nom" : "Azaltar et l'Ambre de Lecture",
+      "nbEpisodes" : "6",
+      "statut" : "Terminée",
+      "description" : "Une saga mp3 humoristique haute en couleurs. On y suit les mésaventures d'un mage noir victime d'une malédiction lui interdisant de lire. Mais lorsque l’Ambre de Lecture apparait sous son nez, le mage noir aperçoit enfin l’occasion de récupérer ses pouvoirs.",
+      "lien": "azaltar",
+      "jaquette": "azaltar.png"
+    },
+    {
+      "nom" : "Overdose de Justice",
       "statut" : "En pause",
       "nbEpisodes" : "3",
-      "description" : "Une saga mp3 dans un univers médiéval où un bâtard déshonoré est prêt à tout pour récupérer le trône.",
-      "lien": "tlba",
-      "jaquette": "tanirm.png"
+      "description" : "Une saga mp3 d'action menée à 200 à l'heure qui mise tout sur le rythme et les cascades audio.",
+      "lien": "overdose",
+      "jaquette": "overdose.png"
     },
     {
-      "nom" : "Tanirm, Le Bâtard Assoiffé",
+      "nom" : "Make Him Fall",
+      "statut" : "Terminée",
+      "nbEpisodes" : "4",
+      "description" : "Thriller mettant en scène un avocat qui doit faire face au plus dangereux pilier de la mafia locale. Suivez le dans son aventure ménée tambour battant.",
+      "lien": "mhf",
+      "jaquette": "mhf.png"
+    },
+    {
+      "nom" : "La quête de base",
+      "statut" : "Terminée",
+      "nbEpisodes" : "3",
+      "description" : "Un aventurier, Nidek, mage de niveau 13 ayant terminé sa quête, va chercher sa récompense, la main de la fille du roi. Cependant, lorsqu'il se présente devant le roi pour la récupérer, celui-ci lui apprend que la princesse a été capturée par l'horrible Mage Noir ! Nidek n'a plus qu'une chose à faire : aller la sauver des griffes du démon ! Mais il ne peut pas le faire seul, et recrute alors des compagnons qui ne seront pas de trop pour l'aider dans sa quête.",
+      "lien": "quete",
+      "jaquette": "quete.png"
+    },
+    {
+      "nom" : "L'épée de Kischnu",
+      "statut" : "Terminée",
+      "nbEpisodes" : "5",
+      "description" : "Matthieu est un terrien comme les autres. Mais alors qu'il est viré de son travail, il se fait enlever par des humanoïdes extraterrestres. On lui apprend qu'il est le seul à pouvoir sauver l'univers en récupérant une épée : l'épée de Kischnu, déesse du bien disparue. Mais alors que le vaisseau fait route vers l'épée, il se fait attaquer par des personnes voulant elles aussi récupérer l'épée. Matthieu doit donc tout faire pour récupérer l'arme avant les autres pour sauver l'univers de sa destruction.",
+      "lien": "kischnu",
+      "jaquette": "kischnu.png"
+    },
+    {
+      "nom" : "Monos et Archives",
       "statut" : "En cours",
-      "nbEpisodes" : "29",
-      "description" : "Une saga mp3 dans un univers médiéval où un bâtard déshonoré est prêt à tout pour récupérer le trône.",
-      "lien": "tlba",
-      "jaquette": "tanirm.png"
+      "nbEpisodes" : "15",
+      "description" : "Toutes les petites créations de Diwan, pour des évènements particuliers ou juste pour le fun, ainsi que les vieux projets abandonnés et autres réalisations audio.",
+      "lien": "monos",
+      "jaquette": "monos.png"
     }
   ]
 }

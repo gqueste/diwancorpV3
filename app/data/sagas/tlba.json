@@ -2,105 +2,334 @@
   "nom" : "Tanirm, Le Bâtard Assoiffé",
   "statut" : "En cours",
   "nbEpisodes" : "9",
-  "description" : "Une saga mp3 dans un univers médiéval où un bâtard déshonoré est prêt à tout pour récupérer le trône.rfeyberb erybre rbv re ebyreu bur yegbi re vyer uye ruyrvey revyueyvre reg urye ryevre ryer yetvrtveyrv er vyetrv saga mp3 dans un univers médiéval où un bâtard déshonoré est prêt à tout pour récupérer le trône.rfeyberb erybre rbv re ebyreu bur yegbi re vyer uye ruyrvey revyueyvre reg urye ryevre ryer yetvrtveyrv er vyetrv",
+  "description" : "Saga mp3 de Fantasy, Tanirm, Le Bâtard Assoiffé est une saga qui est dédiée aux amateurs de jeu de rôle à riches histoires et aux lecteurs d'auteurs comme David Gemmel, Pierre Grimbert, George RR Martin, Robin Hobb et tant d'autres. Si vous aimez les histoires à rebondissements où les évènements se succèdent à un rythme effréné, vous aimerez sans doute Tanirm, Le Bâtard Assoiffé. Dans le royaume de Seterne, il y a dix huit ans de cela, le roi Menelion est revenu d'une de ses campagnes avec un bébé nommé Tanirm, qui fut éduqué comme son enfant légitime. Mais le Roi fut obligé de se remarier pour asseoir une descendance légitime sur le trône. Filiam naquit de cette union avec la reine Ganaelle. Le bâtard Tanirm, délaissé, vit l'enfant devenir peu à peu le parfait héritier du royaume, alors que lui était laissé à l'abandon dont doivent souffrir tous les bâtards. A présent, Tanirm décide de reprendre la place qui lui revient, peu importe ce qui lui en coûtera. Entre complots, ententes et trahisons, le chemin du bâtard vers le pouvoir est tortueux et semé d'embûches. Entrez donc dans cet univers où aucune entente n'est faite pour durer lorsque vous jouez au Jeu du Trône.",
   "lien": "tlba",
   "jaquette": "tanirm.png",
   "packs" : [
     {
       "nom" : "Pack 1",
-      "description" : "La description du pack d'épisodes",
-      "lien" : "machin.zip"
-    },
-    {
-      "nom" : "Pack 2",
-      "description" : "La description du pack d'épisodes",
-      "lien" : "machin.zip"
+      "description" : "Episodes 1 - 5",
+      "lien" : "Tanirm,_Le_Batard_Assoiffe-Pack_1.zip"
     }
   ],
   "episodes": [
     {
-      "nom": "Episode 1",
-      "description" : "Description de l'episode",
+      "nom": "Episode 1 - Assassinat",
+      "description" : "Tanirm, le Bâtard du Roi Menelion, souverain de Seterne, tente de trouver un moyen pour se débarrasser du Prince Filiam, héritier légitime du royaume. Mais cet objectif n'est pas aussi simple à atteindre. Il a des amis dans cette lutte, mais aussi de puissants ennemis qui connaissent son but, et peut être... des concurrents.",
       "duree" : "14 min 30",
-      "dateSortie" : "15 Décembre 2015",
-      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3",
+      "dateSortie" : "16 Juillet 2010",
+      "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_1-assassinat.mp3",
       "acteurs" : [
         {
-          "nom" : "Nom acteur",
-          "lien" : "http://google.fr/adresse"
+          "nom" : "Naëma",
+          "lien" : "http://naerween.champilzow.com/"
         },
         {
-          "nom" : "Nom acteur",
-          "lien" : "http://google.fr/adresse"
+          "nom" : "Javeldose",
+          "lien" : "http://wiki.netophonix.com/Javeldose"
         }
       ],
       "docs" : [
         {
-          "nom" : "Nom du doc",
-          "lien" : "doc.pdf"
-        },
-        {
-          "nom" : "Nom du doc",
-          "lien" : "doc.pdf"
+          "nom" : "Liste des musiques de l'épisode 1",
+          "lien" : "./musiques%20episode%201.pdf"
         }
       ]
     },
     {
-      "nom": "Episode 1",
-      "description" : "Description de l'episode",
-      "duree" : "14 min 30",
-      "dateSortie" : "15 Décembre 2015",
-      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3",
+      "nom": "Episode 2 - Chevalerie",
+      "description" : "L'arrivée à la Cour de Seterne du Chevalier Nalys est synonyme de changements. De quelle étoffe est fait ce nouvel arrivant ? Dans quel camp se rangera-t-il ?",
+      "duree" : "19 min 12",
+      "dateSortie" : "29 Août 2010",
+      "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_2-chevalerie.mp3",
       "acteurs" : [
         {
-          "nom" : "Nom acteur",
-          "lien" : "http://google.fr/adresse"
+          "nom" : "Naëma",
+          "lien" : "http://naerween.champilzow.com/"
         },
         {
-          "nom" : "Nom acteur",
-          "lien" : "http://google.fr/adresse"
+          "nom" : "Javeldose",
+          "lien" : "http://wiki.netophonix.com/Javeldose"
         },
         {
-          "nom" : "Nom acteur",
-          "lien" : "http://google.fr/adresse"
+          "nom" : "thetchaff",
+          "lien" : "http://wiki.netophonix.com/thetchaff"
         },
         {
-          "nom" : "Nom acteur",
-          "lien" : "http://google.fr/adresse"
+          "nom" : "JoHoward",
+          "lien" : "http://johoward.free.fr/"
         },
         {
-          "nom" : "Nom acteur",
-          "lien" : "http://google.fr/adresse"
-        },
-        {
-          "nom" : "Nom acteur",
-          "lien" : "http://google.fr/adresse"
+          "nom" : "Jilief",
+          "lien" : "http://www.jilief.jimdo.com/"
         }
       ],
       "docs" : [
         {
-          "nom" : "Nom du doc",
-          "lien" : "doc.pdf"
+          "nom" : "Liste des musiques de l'épisode 2",
+          "lien" : "./musiques%20episode%202.pdf"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 3 - Mariage",
+      "description" : "Tanirm apprend que le Roi et le Chevalier Nalys prévoient de le marier à Dame Sylivianne. Serait ce la goutte d'eau qui fait déborder le vase ?",
+      "duree" : "13 min 00",
+      "dateSortie" : "30 Mars 2011",
+      "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_3-mariage.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Zip",
+          "lien" : "http://wiki.netophonix.com/Zip"
         },
         {
-          "nom" : "Nom du doc",
-          "lien" : "doc.pdf"
+          "nom" : "Javeldose",
+          "lien" : "http://wiki.netophonix.com/Javeldose"
+        },
+        {
+          "nom" : "thetchaff",
+          "lien" : "http://wiki.netophonix.com/thetchaff"
+        }
+      ],
+      "docs" : [
+        {
+          "nom" : "Liste des musiques de l'épisode 3",
+          "lien" : "./musiques%20episode%203.pdf"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 4 - Pions",
+      "description" : "La Reine Ganaelle rend visite à son père, le Roi Adreild, souverain du Royaume de Picel. Celui-ci lui apprend de grandes nouvelles qui concernent directement le Royaume de Seterne.",
+      "duree" : "12 min 01",
+      "dateSortie" : "12 Avril 2011",
+      "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_4-pions.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Naëma",
+          "lien" : "http://naerween.champilzow.com/"
+        },
+        {
+          "nom" : "thetchaff",
+          "lien" : "http://wiki.netophonix.com/thetchaff"
+        }
+      ],
+      "docs" : [
+        {
+          "nom" : "Liste des musiques de l'épisode 4",
+          "lien" : "./musiques%20episode%204.pdf"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 5 - Ambassadeur",
+      "description" : "Tanirm rencontre un curieux personnage, Heireidric du royaume de Laice, qui semble avoir une mission bien singulière à exécuter à Seterne. De son côté, la Reine Ganaelle revient lentement de son éprouvante rencontre avec son Père. Et au milieu se dresse une auberge...",
+      "duree" : "11 min 00",
+      "dateSortie" : "16 Juin 2011",
+      "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_5-ambassadeur.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Naëma",
+          "lien" : "http://naerween.champilzow.com/"
+        },
+        {
+          "nom" : "Javeldose",
+          "lien" : "http://wiki.netophonix.com/Javeldose"
+        },
+        {
+          "nom" : "thetchaff",
+          "lien" : "http://wiki.netophonix.com/thetchaff"
+        },
+        {
+          "nom" : "Luciole",
+          "lien" : "http://finessefantastique.com/"
+        },
+        {
+          "nom" : "Phine",
+          "lien" : "http://wiki.netophonix.com/Phine"
+        }
+      ],
+      "docs" : [
+        {
+          "nom" : "Liste des musiques de l'épisode 5",
+          "lien" : "./musiques%20episode%205.pdf"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 6 - Alliance",
+      "description" : "Tanirm rentre à la Cour de Seterne avec l'ambassadeur de Laice, Heireidric. Aussitôt rentré, Tanirm veut tout savoir sur ce mystérieux ambassadeur. Et il est bien décidé à tirer partie de ce qu'il apprend.",
+      "duree" : "12 min 50",
+      "dateSortie" : "25 Octobre 2011",
+      "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_6-alliance.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Naëma",
+          "lien" : "http://naerween.champilzow.com/"
+        },
+        {
+          "nom" : "Javeldose",
+          "lien" : "http://wiki.netophonix.com/Javeldose"
+        },
+        {
+          "nom" : "thetchaff",
+          "lien" : "http://wiki.netophonix.com/thetchaff"
+        },
+        {
+          "nom" : "Luciole",
+          "lien" : "http://finessefantastique.com/"
+        },
+        {
+          "nom" : "Horine",
+          "lien" : "http://prodhorine.free.fr/"
+        }
+      ],
+      "docs" : [
+        {
+          "nom" : "Liste des musiques de l'épisode 6",
+          "lien" : "./musiques%20episode%206.pdf"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 7 - Père",
+      "description" : "Tanirm tente d'empêcher la plus grande erreur de sa vie de se produire. Se battant furieusement contre son destin, il sait qu'il risque de perdre la personne la plus importante à ses yeux. Les rouages de la grande machine continuent de tourner. Mais Tanirm compte bien être le grain de sable fatal.",
+      "duree" : "14 min 15",
+      "dateSortie" : "22 Avril 2012",
+      "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_7-pere.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Naëma",
+          "lien" : "http://naerween.champilzow.com/"
+        },
+        {
+          "nom" : "Javeldose",
+          "lien" : "http://wiki.netophonix.com/Javeldose"
+        },
+        {
+          "nom" : "thetchaff",
+          "lien" : "http://wiki.netophonix.com/thetchaff"
+        },
+        {
+          "nom" : "Luciole",
+          "lien" : "http://finessefantastique.com/"
+        },
+        {
+          "nom" : "Horine",
+          "lien" : "http://prodhorine.free.fr/"
+        }
+      ],
+      "docs" : [
+        {
+          "nom" : "Liste des musiques de l'épisode 7",
+          "lien" : "./musiques%20episode%207.pdf"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 8 - Frère",
+      "description" : "Battu, écrasé, humilié, Tanirm semble avoir scellé son cercueil, ainsi que celui du royaume. Mais rien ne l'empêchera de ruer pour tenter de le faire vaciller. Contre tous, ses options sont minces, et ses adversaires beaucoup plus puissants. Heureusement, il n'est pas tout à fait seul.",
+      "duree" : "15 min 10",
+      "dateSortie" : "19 Septembre 2013",
+      "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_8-frere.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Naëma",
+          "lien" : "http://naerween.champilzow.com/"
+        },
+        {
+          "nom" : "Javeldose",
+          "lien" : "http://wiki.netophonix.com/Javeldose"
+        },
+        {
+          "nom" : "thetchaff",
+          "lien" : "http://wiki.netophonix.com/thetchaff"
+        },
+        {
+          "nom" : "Luciole",
+          "lien" : "http://finessefantastique.com/"
+        },
+        {
+          "nom" : "Ian",
+          "lien" : "http://ian.fr.nf/"
+        },
+        {
+          "nom" : "Mity",
+          "lien" : "http://soundcloud.com/mitearalone/"
+        }
+      ],
+      "docs" : [
+        {
+          "nom" : "Liste des musiques de l'épisode 8",
+          "lien" : "./musiques%20episode%208.pdf"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 9 - Plans",
+      "description" : "Chassé, Tanirm doit faire profil bas. Néanmoins, il refuse de fuir et prépare sa contre-attaque.",
+      "duree" : "15 min 55",
+      "dateSortie" : "17 Mai 2015",
+      "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Arthur",
+          "lien" : "http://wiki.netophonix.com/Arthur"
+        },
+        {
+          "nom" : "Demoniak",
+          "lien" : "http://www.sagastream-p3.net/"
+        },
+        {
+          "nom" : "thetchaff",
+          "lien" : "http://wiki.netophonix.com/thetchaff"
+        },
+        {
+          "nom" : "Luciole",
+          "lien" : "http://finessefantastique.com/"
+        },
+        {
+          "nom" : "Blast",
+          "lien" : "http://wiki.netophonix.com/Blast"
+        },
+        {
+          "nom" : "Magero",
+          "lien" : "http://wiki.netophonix.com/Magero"
+        },
+        {
+          "nom" : "Flynn",
+          "lien" : ""
+        },
+        {
+          "nom" : "Lorendil",
+          "lien" : "http://wiki.netophonix.com/Lorendil"
+        },
+        {
+          "nom" : "Yggdrasil Vanaheim",
+          "lien" : "http://wiki.netophonix.com/Yggdrasil_Vanaheim"
+        }
+
+      ],
+      "docs" : [
+        {
+          "nom" : "Liste des musiques de l'épisode 9",
+          "lien" : "./musiques%20episode%209.pdf"
         }
       ]
     }
   ],
   "bonus":[
     {
-      "nom" : "bonus 1",
-      "description" : "Description du bonus",
+      "nom" : "Présentation de l'histoire",
+      "description" : "Voici l'introduction de l'histoire. Elle n'est pas nécessaire à la compréhension de la saga, mais joue une sorte de prologue qui élargit l'univers dans lequel va se dérouler l'histoire. Introduction interprétée sur le modèle d'un livre audio, ce style n'est pas représentatif de la saga qui va suivre.",
       "type" : "mp3",
-      "lien" : "http://diwancorp.fr/mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3"
+      "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_0.mp3"
     },
     {
-      "nom" : "bonus 2",
-      "description" : "Description du bonus",
+      "nom" : "La lamentation du maudit",
+      "description" : "Voici une nouvelle dans l'univers de Tanirm, Le Bâtard Assoiffé. Cette nouvelle n'a pas de lien direct avec la saga, mais une référence à cet écrit se trouve au début de l'épisode 4 de Tanirm, Le Bâtard Assoiffé. Il s'agit d'une légende que l'on raconte au Royaume de Picel sur la provenance des étranges bruits surgissant des falaises près de la mer.",
       "type" : "pdf",
-      "lien" : "episode.mp3"
+      "lien" : "./La_Lamentation_Du_Maudit.pdf"
     }
   ]
 }
