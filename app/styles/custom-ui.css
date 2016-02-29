@@ -89,3 +89,13 @@ img {
   padding-bottom: 32px;
   height: inherit;
 }
+
+a {
+  color: #1F747B;
+}
+
+a:hover{
+  color: #639094;
+  outline: none;
+  text-decoration: none;
+}

@@ -12,26 +12,15 @@ function MainCtrl(DataService, NavigationService, $scope) {
   NavigationService.setCurrentMenu('accueil');
 
   $scope.news = {};
-  $scope.presentation = {};
-
   init();
 
   function init(){
     loadNews();
-    loadPresentation();
   }
 
   function loadNews(){
     DataService.getLatestNews().then(function(data){
       $scope.news = data;
-    }, function(error){
-      console.log(error.message);
-    });
-  }
-
-  function loadPresentation(){
-    DataService.getPresentation().then(function(data){
-      $scope.presentation = data;
     }, function(error){
       console.log(error.message);
     });

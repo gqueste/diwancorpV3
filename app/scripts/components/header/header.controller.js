@@ -15,31 +15,36 @@ function HeaderCtrl(NavigationService, $scope) {
       'id': 'accueil',
       adresse: '',
       'nom': 'Accueil',
-      'active': false
+      'active': false,
+      'class' : ''
     },
     '1_sagasMenu': {
       'id': 'sagas',
       adresse: 'sagas',
-      'nom': 'Sagas mp3',
-      'active': false
+      'nom': ' Sagas mp3',
+      'active': false,
+      'class' : 'fa fa-microphone'
     },
     '2_ecritsMenu': {
       'id': 'ecrits',
       adresse: 'ecrits',
-      'nom': 'Ecrits',
-      'active': false
+      'nom': ' Ecrits',
+      'active': false,
+      'class' : 'fa fa-book'
     },
     '3_diwan': {
       'id': 'diwan',
       adresse: 'diwan',
       'nom': 'A propos',
-      'active': false
+      'active': false,
+      'class' : ''
     },
     '4_partenairesMenu': {
       'id': 'partenaires',
       adresse: 'partenaires',
       'nom': 'Partenaires',
-      'active': false
+      'active': false,
+      'class' : ''
     }
   };
 

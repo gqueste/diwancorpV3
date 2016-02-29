@@ -60,27 +60,6 @@ function DataService($http, $q, $sce){
   }
 
   /**
-   * Get the object to introduce the website
-   * @returns {promise}
-   */
-  function getPresentation(){
-    return $q(function(resolve, reject) {
-
-      $http.get('./data/presentation.json').success(function(data){
-        if(data.hasOwnProperty('presentation')) {
-          resolve(data.presentation);
-        }
-        else{
-          reject(new Error('No object presentation in ./data/presentation.json'));
-        }
-      }).error(function(error){
-        reject(new Error('No access to ./data/presentation.json ' + error.message));
-      });
-
-    });
-  }
-
-  /**
    * Get a list of all sagas
    * @returns {promise}
    */
@@ -224,7 +203,6 @@ function DataService($http, $q, $sce){
 
   return {
     getLatestNews: getLatestNews,
-    getPresentation: getPresentation,
     getSagas : getSagas,
     getSaga : getSaga,
     getEcrits : getEcrits,
