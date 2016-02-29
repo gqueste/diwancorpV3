@@ -9,7 +9,7 @@
    * Controller of the diwancorpApp
    */
 
-  function SagaCtrl($scope, NavigationService, DataService, $routeParams) {
+  function SagaCtrl($scope, NavigationService, DataService, $routeParams, $sce) {
     NavigationService.setCurrentMenu('sagas');
     $scope.saga = {};
     var idSaga = $routeParams.idSaga;
@@ -28,11 +28,15 @@
       });
     }
 
+    $scope.getAudio = function(episode){
+      return $sce.trustAsResourceUrl(episode.lien);
+    }
+
   }
 
   angular
     .module('diwancorpApp')
     .controller('SagaCtrl', SagaCtrl);
 
-  SagaCtrl.$inject = ['$scope', 'NavigationService', 'DataService', '$routeParams'];
+  SagaCtrl.$inject = ['$scope', 'NavigationService', 'DataService', '$routeParams', '$sce'];
 })();

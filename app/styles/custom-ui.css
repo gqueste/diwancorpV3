@@ -99,3 +99,13 @@ a:hover{
   outline: none;
   text-decoration: none;
 }
+
+a:active{
+  color: #639094;
+  outline: none;
+  text-decoration: none;
+}
+
+audio.saga{
+  width: inherit;
+}

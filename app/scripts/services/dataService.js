@@ -9,7 +9,7 @@
  * Service to return data
  */
 
-function DataService($http, $q, $sce){
+function DataService($http, $q){
 
   var statusUi = {
     'En cours' : {
@@ -91,28 +91,6 @@ function DataService($http, $q, $sce){
     return $q(function(resolve, reject){
       var adresse = './data/sagas/' + id + '.json';
       $http.get(adresse).success(function(data){
-        for(var i = 0; i < data.episodes.length; i++){
-          var episode = data.episodes[i];
-          episode.audio = [
-            {
-              src : $sce.trustAsResourceUrl(episode.lien), type:'audio/mpeg'
-            }
-          ];
-        }
-
-        if(data.hasOwnProperty('bonus')){
-          for(var j = 0; j < data.bonus.length; j++){
-            var bonus = data.bonus[j];
-            if(bonus.type === 'mp3'){
-              bonus.audio = [
-                {
-                  src : $sce.trustAsResourceUrl(bonus.lien), type:'audio/mpeg'
-                }
-              ];
-            }
-          }
-        }
-
         resolve(data);
       }).error(function(error){
         reject(new Error('No access to ' + adresse + error.message));
