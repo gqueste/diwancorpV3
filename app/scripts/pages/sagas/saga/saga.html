@@ -18,7 +18,7 @@
     <div ng-repeat="episode in saga.episodes">
       <h3>{{episode.nom}}</h3>
       <p ng-if="episode.dateSortie"><i class="fa fa-calendar"></i><em> Sorti le {{episode.dateSortie}}</em></p>
-      <p ng-if="episode.description">{{episode.description}}</p>
+      <p ng-if="episode.description" ng-bind-html="episode.description"></p>
       <p ng-if="episode.duree"><i class="fa fa-clock-o"></i> {{episode.duree}}</p>
       <div class="row container-element">
         <div class="col-md-10">

@@ -2,7 +2,7 @@
   "nom" : "Tanirm, Le Bâtard Assoiffé",
   "statut" : "En cours",
   "nbEpisodes" : "9",
-  "description" : "Saga mp3 de Fantasy, Tanirm, Le Bâtard Assoiffé est une saga qui est dédiée aux amateurs de jeu de rôle à riches histoires et aux lecteurs d'auteurs comme David Gemmel, Pierre Grimbert, George RR Martin, Robin Hobb et tant d'autres. Si vous aimez les histoires à rebondissements où les évènements se succèdent à un rythme effréné, vous aimerez sans doute Tanirm, Le Bâtard Assoiffé. Dans le royaume de Seterne, il y a dix huit ans de cela, le roi Menelion est revenu d'une de ses campagnes avec un bébé nommé Tanirm, qui fut éduqué comme son enfant légitime. Mais le Roi fut obligé de se remarier pour asseoir une descendance légitime sur le trône. Filiam naquit de cette union avec la reine Ganaelle. Le bâtard Tanirm, délaissé, vit l'enfant devenir peu à peu le parfait héritier du royaume, alors que lui était laissé à l'abandon dont doivent souffrir tous les bâtards. A présent, Tanirm décide de reprendre la place qui lui revient, peu importe ce qui lui en coûtera. Entre complots, ententes et trahisons, le chemin du bâtard vers le pouvoir est tortueux et semé d'embûches. Entrez donc dans cet univers où aucune entente n'est faite pour durer lorsque vous jouez au Jeu du Trône.",
+  "description" : "<strong>Saga mp3 de Fantasy</strong>, Tanirm, Le Bâtard Assoiffé est une saga qui est dédiée aux amateurs de jeu de rôle à riches histoires et aux lecteurs d'auteurs comme David Gemmel, Pierre Grimbert, George RR Martin, Robin Hobb et tant d'autres. Si vous aimez les histoires à rebondissements où les évènements se succèdent à un rythme effréné, vous aimerez sans doute Tanirm, Le Bâtard Assoiffé. Dans le royaume de Seterne, il y a dix huit ans de cela, le roi Menelion est revenu d'une de ses campagnes avec un bébé nommé Tanirm, qui fut éduqué comme son enfant légitime. Mais le Roi fut obligé de se remarier pour asseoir une descendance légitime sur le trône. Filiam naquit de cette union avec la reine Ganaelle. Le bâtard Tanirm, délaissé, vit l'enfant devenir peu à peu le parfait héritier du royaume, alors que lui était laissé à l'abandon dont doivent souffrir tous les bâtards. A présent, Tanirm décide de reprendre la place qui lui revient, peu importe ce qui lui en coûtera. Entre complots, ententes et trahisons, le chemin du bâtard vers le pouvoir est tortueux et semé d'embûches. Entrez donc dans cet univers où aucune entente n'est faite pour durer lorsque vous jouez au Jeu du Trône.",
   "lien": "tlba",
   "jaquette": "tanirm.png",
   "packs" : [
@@ -15,7 +15,7 @@
   "episodes": [
     {
       "nom": "Episode 1 - Assassinat",
-      "description" : "Tanirm, le Bâtard du Roi Menelion, souverain de Seterne, tente de trouver un moyen pour se débarrasser du Prince Filiam, héritier légitime du royaume. Mais cet objectif n'est pas aussi simple à atteindre. Il a des amis dans cette lutte, mais aussi de puissants ennemis qui connaissent son but, et peut être... des concurrents.",
+      "description" : "<strong>Tanirm, le Bâtard</strong> du Roi Menelion, souverain de Seterne, tente de trouver un moyen pour se débarrasser du Prince Filiam, héritier légitime du royaume. Mais cet objectif n'est pas aussi simple à atteindre. Il a des amis dans cette lutte, mais aussi de puissants ennemis qui connaissent son but, et peut être... des concurrents.",
       "duree" : "14 min 30",
       "dateSortie" : "16 Juillet 2010",
       "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_1-assassinat.mp3",
