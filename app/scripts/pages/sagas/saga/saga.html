@@ -22,7 +22,7 @@
       <p ng-if="episode.duree"><i class="fa fa-clock-o"></i> {{episode.duree}}</p>
       <div class="row container-element">
         <div class="col-md-10">
-          <audio class="saga" src="{{getAudio(episode)}}" controls></audio>
+          <audio class="saga" src="{{getAudio(episode)}}" controls preload="metadata"></audio>
         </div>
         <div class="col-md-2 text-center">
           <a ng-href="{{episode.lien}}" class="fa fa-download fa-4x" download></a>
@@ -51,11 +51,11 @@
     <h2>Bonus</h2>
     <div ng-repeat="bonus in saga.bonus">
       <h3>{{bonus.nom}}</h3>
-      <p>{{bonus.description}}</p>
+      <p ng-bind-html="bonus.description"></p>
       <div ng-if="bonus.type == 'mp3'">
         <div class="row container-element">
           <div class="col-md-10">
-            <audio class="saga" src="{{getAudio(bonus)}}" controls></audio>
+            <audio class="saga" src="{{getAudio(bonus)}}" controls preload="metadata"></audio>
           </div>
           <div class="col-md-2 text-center">
             <a ng-href="{{bonus.lien}}" class="fa fa-download fa-4x" download></a>
@@ -68,5 +68,5 @@
       <hr>
     </div>
   </div>
-  <p>TIP : Si vous n'arrivez pas à télécharger les épisodes, Clic-Droit puis Enregistrez sous...</p>
+  <p>TIP : Si vous n'arrivez pas à télécharger les épisodes, Clic-Droit puis Enregistrer le lien sous...</p>
 </div>

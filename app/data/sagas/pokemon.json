@@ -1,0 +1,157 @@
+{
+  "nom" : "Pokémon, l'Arche de la Victoire",
+  "statut" : "Terminée",
+  "nbEpisodes" : "8",
+  "description" : "Cette histoire est une adaptation en mp3 des premières saisons de l'anime Pokémon (les 150 premiers Pokémons). Elle reprend les codes et l'univers pour délivrer une nouvelle histoire originale pour les nostalgiques de ce dessin animé.<br><br>Elle met en scène un jeune dresseur, Grégoire, qui commence la longue route pour devenir Maître Pokémon.<br><br>Amitié, Rencontres et Combats rythment son aventure.",
+  "lien": "pokemon",
+  "jaquette": "pokemon.png",
+  "packs" : [
+    {
+      "nom" : "Pack complet d'épisodes",
+      "description" : "Episodes 1 - 8",
+      "lien" : "./pokemon/Pokemon-L_Arche_de_la_Victoire.zip"
+    }
+  ],
+  "episodes": [
+    {
+      "nom": "Episode 1 - Un Dresseur motivé !",
+      "description" : "",
+      "duree" : "12 min 15",
+      "dateSortie" : "03 Février 2011",
+      "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_9-plans.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Istria",
+          "lien" : "http://exnihilo.forumrp.net/"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 2 - Force et amour",
+      "description" : "",
+      "duree" : "09 min 15",
+      "dateSortie" : "04 Mars 2011",
+      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_2-Force_et_Amour.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Istria",
+          "lien" : "http://exnihilo.forumrp.net/"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 3 - Conflit au lac",
+      "description" : "",
+      "duree" : "11 min 05",
+      "dateSortie" : "03 Juillet 2011",
+      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_3-Conflit_au_Lac.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Istria",
+          "lien" : "http://exnihilo.forumrp.net/"
+        },
+        {
+          "nom" : "Moony",
+          "lien" : "#"
+        },
+        {
+          "nom" : "Luciole",
+          "lien" : "http://wiki.netophonix.com/Luciole"
+        },
+        {
+          "nom" : "Yohan",
+          "lien" : "#"
+        },
+        {
+          "nom" : "Hirder",
+          "lien" : "http://wiki.netophonix.com/Hirder"
+        },
+        {
+          "nom" : "Zip",
+          "lien" : "http://wiki.netophonix.com/Zip"
+        },
+        {
+          "nom" : "Szadec",
+          "lien" : "http://wiki.netophonix.com/Szadec"
+        },
+        {
+          "nom" : "Kuroro",
+          "lien" : "#"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 4 - Inscription",
+      "description" : "",
+      "duree" : "08 min 35",
+      "dateSortie" : "14 Août 2011",
+      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_4-Inscription.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Istria",
+          "lien" : "http://exnihilo.forumrp.net/"
+        },
+        {
+          "nom" : "Phine",
+          "lien" : "http://wiki.netophonix.com/Phine"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 5 - Premier tour",
+      "description" : "",
+      "duree" : "13 min 49",
+      "dateSortie" : "09 Mars 2012",
+      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_5-Premier_Tour.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Istria",
+          "lien" : "http://exnihilo.forumrp.net/"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 6 - Combats acharnés",
+      "description" : "",
+      "duree" : "14 min 45",
+      "dateSortie" : "12 Juin 2012",
+      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_6-Combats_Acharnes.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Istria",
+          "lien" : "http://exnihilo.forumrp.net/"
+        },
+        {
+          "nom" : "Johnny",
+          "lien" : "http://wiki.netophonix.com/Johnny"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 7 - Que le meilleur gagne !",
+      "description" : "",
+      "duree" : "18 min 09",
+      "dateSortie" : "03 Août 2014",
+      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_7-Que_Le_Meilleur_Gagne.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Istria",
+          "lien" : "http://exnihilo.forumrp.net/"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 8 - Une histoire de force",
+      "description" : "",
+      "duree" : "10 min 40",
+      "dateSortie" : "30 Septembre 2014",
+      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_8-Une_Histoire_de_Force.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Istria",
+          "lien" : "http://exnihilo.forumrp.net/"
+        }
+      ]
+    }
+  ]
+}

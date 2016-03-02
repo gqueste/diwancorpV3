@@ -2,7 +2,7 @@
   "nom" : "Tanirm, Le Bâtard Assoiffé",
   "statut" : "En cours",
   "nbEpisodes" : "9",
-  "description" : "<strong>Saga mp3 de Fantasy</strong>, Tanirm, Le Bâtard Assoiffé est une saga qui est dédiée aux amateurs de jeu de rôle à riches histoires et aux lecteurs d'auteurs comme David Gemmel, Pierre Grimbert, George RR Martin, Robin Hobb et tant d'autres. Si vous aimez les histoires à rebondissements où les évènements se succèdent à un rythme effréné, vous aimerez sans doute Tanirm, Le Bâtard Assoiffé. Dans le royaume de Seterne, il y a dix huit ans de cela, le roi Menelion est revenu d'une de ses campagnes avec un bébé nommé Tanirm, qui fut éduqué comme son enfant légitime. Mais le Roi fut obligé de se remarier pour asseoir une descendance légitime sur le trône. Filiam naquit de cette union avec la reine Ganaelle. Le bâtard Tanirm, délaissé, vit l'enfant devenir peu à peu le parfait héritier du royaume, alors que lui était laissé à l'abandon dont doivent souffrir tous les bâtards. A présent, Tanirm décide de reprendre la place qui lui revient, peu importe ce qui lui en coûtera. Entre complots, ententes et trahisons, le chemin du bâtard vers le pouvoir est tortueux et semé d'embûches. Entrez donc dans cet univers où aucune entente n'est faite pour durer lorsque vous jouez au Jeu du Trône.",
+  "description" : "Saga mp3 de Fantasy, Tanirm, Le Bâtard Assoiffé est une saga qui est dédiée aux amateurs de jeu de rôle à riches histoires et aux lecteurs d'auteurs comme David Gemmel, Pierre Grimbert, George RR Martin, Robin Hobb et tant d'autres. Si vous aimez les histoires à rebondissements où les évènements se succèdent à un rythme effréné, vous aimerez sans doute Tanirm, Le Bâtard Assoiffé.<br><br>Dans le royaume de Seterne, il y a dix huit ans de cela, le roi Menelion est revenu d'une de ses campagnes avec un bébé nommé Tanirm, qui fut éduqué comme son enfant légitime.<br>Mais le Roi fut obligé de se remarier pour asseoir une descendance légitime sur le trône. Filiam naquit de cette union avec la reine Ganaelle.<br>Le bâtard Tanirm, délaissé, vit l'enfant devenir peu à peu le parfait héritier du royaume, alors que lui était laissé à l'abandon dont doivent souffrir tous les bâtards.<br>A présent, Tanirm décide de reprendre la place qui lui revient, peu importe ce qui lui en coûtera.<br>Entre complots, ententes et trahisons, le chemin du bâtard vers le pouvoir est tortueux et semé d'embûches.<br><br>Entrez donc dans cet univers où aucune entente n'est faite pour durer lorsque vous jouez au Jeu du Trône.",
   "lien": "tlba",
   "jaquette": "tanirm.png",
   "packs" : [
@@ -15,7 +15,7 @@
   "episodes": [
     {
       "nom": "Episode 1 - Assassinat",
-      "description" : "<strong>Tanirm, le Bâtard</strong> du Roi Menelion, souverain de Seterne, tente de trouver un moyen pour se débarrasser du Prince Filiam, héritier légitime du royaume. Mais cet objectif n'est pas aussi simple à atteindre. Il a des amis dans cette lutte, mais aussi de puissants ennemis qui connaissent son but, et peut être... des concurrents.",
+      "description" : "Tanirm, le Bâtard du Roi Menelion, souverain de Seterne, tente de trouver un moyen pour se débarrasser du Prince Filiam, héritier légitime du royaume.<br>Mais cet objectif n'est pas aussi simple à atteindre.<br>Il a des amis dans cette lutte, mais aussi de puissants ennemis qui connaissent son but, et peut être... des concurrents.",
       "duree" : "14 min 30",
       "dateSortie" : "16 Juillet 2010",
       "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_1-assassinat.mp3",
@@ -123,7 +123,7 @@
     },
     {
       "nom": "Episode 5 - Ambassadeur",
-      "description" : "Tanirm rencontre un curieux personnage, Heireidric du royaume de Laice, qui semble avoir une mission bien singulière à exécuter à Seterne. De son côté, la Reine Ganaelle revient lentement de son éprouvante rencontre avec son Père. Et au milieu se dresse une auberge...",
+      "description" : "Tanirm rencontre un curieux personnage, Heireidric du royaume de Laice, qui semble avoir une mission bien singulière à exécuter à Seterne.<br>De son côté, la Reine Ganaelle revient lentement de son éprouvante rencontre avec son Père. Et au milieu se dresse une auberge...",
       "duree" : "11 min 00",
       "dateSortie" : "16 Juin 2011",
       "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_5-ambassadeur.mp3",
@@ -158,7 +158,7 @@
     },
     {
       "nom": "Episode 6 - Alliance",
-      "description" : "Tanirm rentre à la Cour de Seterne avec l'ambassadeur de Laice, Heireidric. Aussitôt rentré, Tanirm veut tout savoir sur ce mystérieux ambassadeur. Et il est bien décidé à tirer partie de ce qu'il apprend.",
+      "description" : "Tanirm rentre à la Cour de Seterne avec l'ambassadeur de Laice, Heireidric.<br>Aussitôt rentré, Tanirm veut tout savoir sur ce mystérieux ambassadeur.<br>Et il est bien décidé à tirer partie de ce qu'il apprend.",
       "duree" : "12 min 50",
       "dateSortie" : "25 Octobre 2011",
       "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_6-alliance.mp3",
@@ -193,7 +193,7 @@
     },
     {
       "nom": "Episode 7 - Père",
-      "description" : "Tanirm tente d'empêcher la plus grande erreur de sa vie de se produire. Se battant furieusement contre son destin, il sait qu'il risque de perdre la personne la plus importante à ses yeux. Les rouages de la grande machine continuent de tourner. Mais Tanirm compte bien être le grain de sable fatal.",
+      "description" : "Tanirm tente d'empêcher la plus grande erreur de sa vie de se produire.<br>Se battant furieusement contre son destin, il sait qu'il risque de perdre la personne la plus importante à ses yeux.<br>Les rouages de la grande machine continuent de tourner.<br>Mais Tanirm compte bien être le grain de sable fatal.",
       "duree" : "14 min 15",
       "dateSortie" : "22 Avril 2012",
       "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_7-pere.mp3",
@@ -228,7 +228,7 @@
     },
     {
       "nom": "Episode 8 - Frère",
-      "description" : "Battu, écrasé, humilié, Tanirm semble avoir scellé son cercueil, ainsi que celui du royaume. Mais rien ne l'empêchera de ruer pour tenter de le faire vaciller. Contre tous, ses options sont minces, et ses adversaires beaucoup plus puissants. Heureusement, il n'est pas tout à fait seul.",
+      "description" : "Battu, écrasé, humilié, Tanirm semble avoir scellé son cercueil, ainsi que celui du royaume. Mais rien ne l'empêchera de ruer pour tenter de le faire vaciller.<br>Contre tous, ses options sont minces, et ses adversaires beaucoup plus puissants.<br>Heureusement, il n'est pas tout à fait seul.",
       "duree" : "15 min 10",
       "dateSortie" : "19 Septembre 2013",
       "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_8-frere.mp3",
@@ -321,13 +321,13 @@
   "bonus":[
     {
       "nom" : "Présentation de l'histoire",
-      "description" : "Voici l'introduction de l'histoire. Elle n'est pas nécessaire à la compréhension de la saga, mais joue une sorte de prologue qui élargit l'univers dans lequel va se dérouler l'histoire. Introduction interprétée sur le modèle d'un livre audio, ce style n'est pas représentatif de la saga qui va suivre.",
+      "description" : "Voici l'introduction de l'histoire.<br>Elle n'est pas nécessaire à la compréhension de la saga, mais joue une sorte de prologue qui élargit l'univers dans lequel va se dérouler l'histoire.<br>Introduction interprétée sur le modèle d'un livre audio, ce style n'est pas représentatif de la saga qui va suivre.",
       "type" : "mp3",
       "lien" : "./mp3/tanirm,le_batard_assoiffe-episode_0.mp3"
     },
     {
       "nom" : "La lamentation du maudit",
-      "description" : "Voici une nouvelle dans l'univers de Tanirm, Le Bâtard Assoiffé. Cette nouvelle n'a pas de lien direct avec la saga, mais une référence à cet écrit se trouve au début de l'épisode 4 de Tanirm, Le Bâtard Assoiffé. Il s'agit d'une légende que l'on raconte au Royaume de Picel sur la provenance des étranges bruits surgissant des falaises près de la mer.",
+      "description" : "Voici une nouvelle dans l'univers de Tanirm, Le Bâtard Assoiffé.<br>Cette nouvelle n'a pas de lien direct avec la saga, mais une référence à cet écrit se trouve au début de l'épisode 4 de Tanirm, Le Bâtard Assoiffé.<br>Il s'agit d'une légende que l'on raconte au Royaume de Picel sur la provenance des étranges bruits surgissant des falaises près de la mer.",
       "type" : "pdf",
       "lien" : "./La_Lamentation_Du_Maudit.pdf"
     }

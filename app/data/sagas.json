@@ -4,7 +4,7 @@
       "nom" : "Tanirm, Le Bâtard Assoiffé",
       "statut" : "En cours",
       "nbEpisodes" : "9",
-      "description" : "<strong>Une saga mp3</strong> de fantasy riche où vous suivez les aventures de Tanirm, Bâtard du roi dans sa tentative pour monter sur le trône.",
+      "description" : "Une saga mp3 de fantasy riche où vous suivez les aventures de Tanirm, Bâtard du roi dans sa tentative pour monter sur le trône.",
       "lien": "tlba",
       "jaquette": "tanirm.png"
     },
@@ -20,7 +20,7 @@
       "nom" : "Le Donjon En Folie",
       "nbEpisodes" : "26",
       "statut" : "En pause",
-      "description" : "Une saga mp3 dont vous êtes le heros. Menez une troupe d'aventuriers à travers les différents pièges du Donjon. A télécharger ou à jouer en ligne.",
+      "description" : "Une saga mp3 dont vous êtes le héros. Menez une troupe d'aventuriers à travers les différents pièges du Donjon. A télécharger ou à jouer en ligne.",
       "lien": "def",
       "jaquette": "def.png"
     },
@@ -60,7 +60,7 @@
       "nom" : "L'épée de Kischnu",
       "statut" : "Terminée",
       "nbEpisodes" : "5",
-      "description" : "Matthieu est un terrien comme les autres. Mais alors qu'il est viré de son travail, il se fait enlever par des humanoïdes extraterrestres. On lui apprend qu'il est le seul à pouvoir sauver l'univers en récupérant une épée : l'épée de Kischnu, déesse du bien disparue. Mais alors que le vaisseau fait route vers l'épée, il se fait attaquer par des personnes voulant elles aussi récupérer l'épée. Matthieu doit donc tout faire pour récupérer l'arme avant les autres pour sauver l'univers de sa destruction.",
+      "description" : "Matthieu est un terrien comme les autres. Mais alors qu'il est viré de son travail, il se fait enlever par des humanoïdes extraterrestres. On lui apprend qu'il est le seul à pouvoir sauver l'univers en récupérant une épée : l'épée de Kischnu, déesse du bien disparue. Mais alors que le vaisseau fait route, il se fait attaquer par des personnes voulant elles aussi récupérer l'épée. Matthieu doit donc tout faire pour récupérer l'arme avant les autres pour sauver l'univers de sa destruction.",
       "lien": "kischnu",
       "jaquette": "kischnu.png"
     },
