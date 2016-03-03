@@ -1,0 +1,28 @@
+{
+  "nom" : "Overdose de justice",
+  "statut" : "En pause",
+  "nbEpisodes" : "3",
+  "description" : "Overdose de Justice est une <strong>saga mp3 d'action menée à 200 à l'heure</strong> qui ne vous laisse souffler que pour vous emmener encore plus loin dans l'action.<br><br> Ici, tout est basé sur le rythme. Bagarres, courses poursuite, fusillades, tout est fait pour vous scotcher à votre casque ou à vos oreillettes.<br><br><br><br><em>Qu'est ce que la Justice dans ce Monde ? Là où le pouvoir fait tout, là où on n'hésite pas à fermer les yeux pour garder les faveurs des puissants, même après des actes infâmes effectués sous couvert du mot 'justice'.<br><br>Et comment pourrait-on faire pour rendre la réelle Justice, celle qui protège les innocents et condamne le coupable ? Existe-t-il réellement un moyen de le faire ?<br><br>Toutes ces questions, Thomas ne se les posait pas du tout, jusqu'à ce qu'un jour, il se retrouve sous la mauvaise fenêtre au mauvais moment. Et alors que le corps d'un homme s'effondrait sur lui, un liquide pénétrait à l'intérieur de son corps.<br><br>Un liquide qui allait changer sa vie...</em>",
+  "lien": "overdose",
+  "jaquette": "overdose.png",
+  "episodes": [
+    {
+      "nom": "Episode 1 - Dose mortelle",
+      "duree" : "08 min 40",
+      "dateSortie" : "13 Mai 2011",
+      "lien" : "./mp3/Overdose%20de%20Justice%20-%20Episode%2001%20-%20Dose%20Mortelle.mp3"
+    },
+    {
+      "nom": "Episode 2 - Soins",
+      "duree" : "08 min 43",
+      "dateSortie" : "02 Juin 2011",
+      "lien" : "./mp3/Overdose%20de%20Justice%20-%20Episode%2002%20-%20Soins.mp3"
+    },
+    {
+      "nom": "Episode 3 - Vieil ami",
+      "duree" : "08 min 21",
+      "dateSortie" : "14 Août 2011",
+      "lien" : "./mp3/Overdose%20de%20Justice%20-%20Episode%2003%20-%20Vieil%20Ami.mp3"
+    }
+  ]
+}
