@@ -9,7 +9,7 @@
     {
       "nom" : "Pack complet d'épisodes",
       "description" : "Episodes 1 - 8",
-      "lien" : "./pokemon/Pokemon-L_Arche_de_la_Victoire.zip"
+      "lien" : "./mp3/Pokemon-L_Arche_de_la_Victoire.zip"
     }
   ],
   "episodes": [
@@ -18,7 +18,7 @@
       "description" : "",
       "duree" : "12 min 15",
       "dateSortie" : "03 Février 2011",
-      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_1-Un_Dresseur_Motive.mp3",
+      "lien" : "./mp3/Pokemon-L_Arche_De_La_Victoire-Episode_1-Un_Dresseur_Motive.mp3",
       "acteurs" : [
         {
           "nom" : "Istria",
@@ -31,7 +31,7 @@
       "description" : "",
       "duree" : "09 min 15",
       "dateSortie" : "04 Mars 2011",
-      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_2-Force_et_Amour.mp3",
+      "lien" : "./mp3/Pokemon-L_Arche_De_La_Victoire-Episode_2-Force_et_Amour.mp3",
       "acteurs" : [
         {
           "nom" : "Istria",
@@ -44,7 +44,7 @@
       "description" : "",
       "duree" : "11 min 05",
       "dateSortie" : "03 Juillet 2011",
-      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_3-Conflit_au_Lac.mp3",
+      "lien" : "./mp3/Pokemon-L_Arche_De_La_Victoire-Episode_3-Conflit_au_Lac.mp3",
       "acteurs" : [
         {
           "nom" : "Istria",
@@ -85,7 +85,7 @@
       "description" : "",
       "duree" : "08 min 35",
       "dateSortie" : "14 Août 2011",
-      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_4-Inscription.mp3",
+      "lien" : "./mp3/Pokemon-L_Arche_De_La_Victoire-Episode_4-Inscription.mp3",
       "acteurs" : [
         {
           "nom" : "Istria",
@@ -102,7 +102,7 @@
       "description" : "",
       "duree" : "13 min 49",
       "dateSortie" : "09 Mars 2012",
-      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_5-Premier_Tour.mp3",
+      "lien" : "./mp3/Pokemon-L_Arche_De_La_Victoire-Episode_5-Premier_Tour.mp3",
       "acteurs" : [
         {
           "nom" : "Istria",
@@ -115,7 +115,7 @@
       "description" : "",
       "duree" : "14 min 45",
       "dateSortie" : "12 Juin 2012",
-      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_6-Combats_Acharnes.mp3",
+      "lien" : "./mp3/Pokemon-L_Arche_De_La_Victoire-Episode_6-Combats_Acharnes.mp3",
       "acteurs" : [
         {
           "nom" : "Istria",
@@ -132,7 +132,7 @@
       "description" : "",
       "duree" : "18 min 09",
       "dateSortie" : "03 Août 2014",
-      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_7-Que_Le_Meilleur_Gagne.mp3",
+      "lien" : "./mp3/Pokemon-L_Arche_De_La_Victoire-Episode_7-Que_Le_Meilleur_Gagne.mp3",
       "acteurs" : [
         {
           "nom" : "Istria",
@@ -145,7 +145,7 @@
       "description" : "",
       "duree" : "10 min 40",
       "dateSortie" : "30 Septembre 2014",
-      "lien" : "./pokemon/Pokemon-L_Arche_De_La_Victoire-Episode_8-Une_Histoire_de_Force.mp3",
+      "lien" : "./mp3/Pokemon-L_Arche_De_La_Victoire-Episode_8-Une_Histoire_de_Force.mp3",
       "acteurs" : [
         {
           "nom" : "Istria",
