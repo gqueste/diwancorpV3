@@ -1,0 +1,83 @@
+{
+  "nom" : "Azaltar et l'Ambre de Lecture",
+  "statut" : "Terminée",
+  "nbEpisodes" : "6",
+  "description" : "Azaltar est un mage noir avec un certain handicap.<br><br>Dans un monde où toute la magie découle d’artefacts pourvus de notices d’utilisation, il est incapable de les lire, suite à une malédiction lancée par son ancien maître Belzétone.<br><br>Azaltar se satisfait pourtant de sa situation et dirige un donjon avec l’aide de Glück, son associé/esclave.<br><br>Mais lorsque l’Ambre de Lecture apparait sous son nez, le mage noir aperçoit enfin l’occasion de récupérer ses pouvoirs.<br><br>Cette saga a été réalisée dans le cadre du <a href='http://wiki.netophonix.com/Saga_de_l%27%C3%A9t%C3%A9'>Concours de la Saga de l'Eté 2012</a> sur <a href='http://netophonix.com/'>Netophonix</a> et a remporté <strong>l'Award du Meilleur Jeu d'Acteur</strong> et <strong>l'Award de la Meilleure Qualité Audio</strong>.",
+  "lien": "azaltar",
+  "jaquette": "azaltar.png",
+  "packs" : [
+    {
+      "nom" : "Pack complet d'épisodes",
+      "description" : "Episodes 0 - 5",
+      "lien" : "./mp3/Azaltar_et_l_Ambre_de_Lecture.zip"
+    }
+  ],
+  "episodes": [
+    {
+      "nom": "Episode 0 - Prélude",
+      "description" : "Le mage noir Belzétone raconte sa relation avec son ancien élève, Azaltar.",
+      "duree" : "02 min 14",
+      "dateSortie" : "16 Juillet 2012",
+      "lien" : "./mp3/Azaltar_et_l_Ambre_de_Lecture_Episode_0.mp3"
+    },
+    {
+      "nom": "Episode 1 - Les Chevaliers Dragons",
+      "description" : "Les Chevaliers Dragons tentent de survivre dans le donjon d'Azaltar.",
+      "duree" : "07 min 16",
+      "dateSortie" : "26 Juillet 2012",
+      "lien" : "./mp3/Azaltar_et_l_Ambre_de_Lecture_Episode_1.mp3"
+    },
+    {
+      "nom": "Episode 2 - Arcanes et Inquisition",
+      "description" : "Alors qu'Azaltar veut se lancer à la poursuite de son agresseur, quelqu'un frappe à la porte de son donjon.",
+      "duree" : "03 min 32",
+      "dateSortie" : "30 Juillet 2012",
+      "lien" : "./mp3/Azaltar_et_l_Ambre_de_Lecture_Episode_2.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Phine",
+          "lien" : "http://wiki.netophonix.com/Phine"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 3 - Procès",
+      "description" : "Azaltar et Glück sont escortés par l'inquisitrice Trancine devant les tribunaux de l'Ordre du Maintien de la Magie pour utilisation interdite de la Magie des Arcanes.<br>Ça ne s'annonce pas très bien... ",
+      "duree" : "05 min 36",
+      "dateSortie" : "08 Août 2012",
+      "lien" : "./mp3/Azaltar_et_l_Ambre_de_Lecture_Episode_3.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Phine",
+          "lien" : "http://wiki.netophonix.com/Phine"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 4 - Ô Maître Adoré",
+      "description" : "Azaltar, Glück et Trancine vont chez Belzétone pour tenter d'obtenir la collaboration du mage. Mais ce dernier n'a pas très envie...",
+      "duree" : "04 min 25",
+      "dateSortie" : "20 Août 2012",
+      "lien" : "./mp3/Azaltar_et_l_Ambre_de_Lecture_Episode_4.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Phine",
+          "lien" : "http://wiki.netophonix.com/Phine"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 5 - Traque",
+      "description" : "Belzétone a décidé d'aider Azaltar à retrouver le voleur de l'Ambre de Lecture. Mais ce dernier a des plans pour ces précieux objets.",
+      "duree" : "09 min 02",
+      "dateSortie" : "01 Septembre 2012",
+      "lien" : "./mp3/Azaltar_et_l_Ambre_de_Lecture_Episode_5.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Phine",
+          "lien" : "http://wiki.netophonix.com/Phine"
+        }
+      ]
+    }
+  ]
+}
