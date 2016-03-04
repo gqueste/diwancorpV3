@@ -1,0 +1,68 @@
+{
+  "nom" : "Make Him Fall",
+  "statut" : "Terminée",
+  "nbEpisodes" : "4",
+  "description" : "Saga réalisée dans le cadre du <strong>Concours de la Saga de l'Eté 2009</strong>.<br><br><em>Enfin ! Le chef de la mafia locale, Albert de Castilli, responsable d'un grand trafic de drogue et d'actions peu charitables en tout genre vient de se faire arrêter par la police.<br><br>C'est la première fois que des preuves sont trouvées contre lui, et Maître Arnaud Fournier compte bien tout faire pour contribuer à sa chute.<br><br>Mais comment gagner une affaire dont les seules preuves matérielles de culpabilité ont disparu ? Et comment mettre tout son cœur dans la bataille quand sa famille est prise en otage ?</em>",
+  "lien": "mhf",
+  "jaquette": "mhf.png",
+  "episodes": [
+    {
+      "nom": "Episode 1",
+      "description" : "Le mafieux Albert de Castilli a été arrêté en possession d'une valise d'héroïne. Cette erreur va permettre de le faire condamner. Arnaud Fournier décide d'être l'avocat des familles des victimes de Castilli pour qu'il n'échappe pas une fois de plus à la Justice. Mais ce mafieux a plus d'un tour dans son sac.",
+      "duree" : "06 min 34",
+      "dateSortie" : "20 Juillet 2009",
+      "lien" : "./mp3/Make_Him_Fall_Episode_1.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Melfice737",
+          "lien" : "http://wiki.netophonix.com/Melfice737"
+        },
+        {
+          "nom" : "Squill",
+          "lien" : "http://wiki.netophonix.com/Squill"
+        },
+        {
+          "nom" : "Phine",
+          "lien" : "http://wiki.netophonix.com/Phine"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 2",
+      "description" : "Les preuves de la culpabilité de Castilli ont disparu et avec sa famille prise en otage, Arnaud pense avoir les mains liées. Mais il reprend espoir en contactant un ex-flic qui a un compte à régler avec Castilli.",
+      "duree" : "05 min 02",
+      "dateSortie" : "06 Août 2009",
+      "lien" : "./mp3/Make_Him_Fall_Episode_2.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Melfice737",
+          "lien" : "http://wiki.netophonix.com/Melfice737"
+        },
+        {
+          "nom" : "Zywa",
+          "lien" : "http://wiki.netophonix.com/Zywa"
+        }
+      ]
+    },
+    {
+      "nom": "Episode 3",
+      "description" : "Matthieu a retrouvé la piste de Marc, l'homme de main de Castilli qui a récupéré la valise et il va l'interroger.",
+      "duree" : "04 min 21",
+      "dateSortie" : "15 Août 2009",
+      "lien" : "./mp3/Make_Him_Fall_Episode_3.mp3"
+    },
+    {
+      "nom": "Episode 4",
+      "description" : "Matthieu et Arnaud vont tenter de libérer la famille de l'avocat et de récupérer la valise.",
+      "duree" : "06 min 33",
+      "dateSortie" : "31 Août 2009",
+      "lien" : "./mp3/Make_Him_Fall_Episode_4.mp3",
+      "acteurs" : [
+        {
+          "nom" : "Phine",
+          "lien" : "http://wiki.netophonix.com/Phine"
+        }
+      ]
+    }
+  ]
+}

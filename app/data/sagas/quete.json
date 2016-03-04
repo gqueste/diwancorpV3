@@ -1,0 +1,22 @@
+{
+  "nom" : "La Quête de base",
+  "statut" : "Terminée",
+  "nbEpisodes" : "3",
+  "description" : "<strong>Attention ! Saga datant des débuts de Diwan. Oreilles sensibles s'abstenir !</strong><br><br>Un aventurier, Nidek, mage de niveau 13 ayant terminé sa quête, va chercher sa récompense, la main de la fille du roi. Cependant, lorsqu'il se présente devant le roi pour la récupérer, celui-ci lui apprend que la princesse a été capturée par l'horrible Mage Noir ! Nidek n'a plus qu'une chose à faire : aller la sauver des griffes du démon ! Mais il ne peut pas le faire seul, et recrute alors des compagnons qui ne seront pas de trop pour l'aider dans sa quête.",
+  "lien": "quete",
+  "jaquette": "quete.png",
+  "episodes": [
+    {
+      "nom": "Episode 1",
+      "lien" : "./mp3/La_quete_de_base_episode_1.mp3"
+    },
+    {
+      "nom": "Episode 2",
+      "lien" : "./mp3/La_quete_de_base_episode_2.mp3"
+    },
+    {
+      "nom": "Episode 3",
+      "lien" : "./mp3/La_quete_de_base_episode_3.mp3"
+    }
+  ]
+}

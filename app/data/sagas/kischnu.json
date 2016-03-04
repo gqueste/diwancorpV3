@@ -1,0 +1,30 @@
+{
+  "nom" : "L'épée de Kischnu",
+  "statut" : "Terminée",
+  "nbEpisodes" : "5",
+  "description" : "<strong>Attention ! Saga datant des débuts de Diwan. Oreilles sensibles s'abstenir !</strong><br><br>Réalisée pour le Concours de la Saga de l'Eté 2008.<br><br>Matthieu est un terrien comme les autres. Mais alors qu'il est viré de son travail, il se fait enlever par des humanoïdes extraterrestres. On lui apprend qu'il est le seul à pouvoir sauver l'univers en récupérant une épée : l'épée de Kischnu, déesse du bien disparue. Mais alors que le vaisseau fait route vers l'épée, il se fait attaquer par des personnes voulant elles aussi récupérer l'épée. Matthieu doit donc tout faire pour récupérer l'arme avant les autres pour sauver l'univers de sa destruction.",
+  "lien": "kischnu",
+  "jaquette": "kischnu.png",
+  "episodes": [
+    {
+      "nom": "Episode 1 - Les Emmerdes",
+      "lien" : "./mp3/L_Epee_de_Kischnu-Episode_1-Les_Emmerdes.mp3"
+    },
+    {
+      "nom": "Episode 2 - Explications",
+      "lien" : "./mp3/L_Epee_de_Kischnu-Episode_2-Explications.mp3"
+    },
+    {
+      "nom": "Episode 3 - Arrivée sur Murtag",
+      "lien" : "./mp3/L_Epee_de_Kischnu-Episode_3-Arrivee_sur_Murtag.mp3"
+    },
+    {
+      "nom": "Episode 4 - La poursuite",
+      "lien" : "./mp3/L_Epee_de_Kischnu-Episode_4-La_Poursuite.mp3"
+    },
+    {
+      "nom": "Episode 5 - Le Final",
+      "lien" : "./mp3/L_Epee_de_Kischnu-Episode_5-Le_Final.mp3"
+    }
+  ]
+}
