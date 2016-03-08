@@ -1,0 +1,104 @@
+{
+  "nom" : "Monos et archives",
+  "statut" : "En cours",
+  "nbEpisodes" : "15",
+  "description" : "Histoires courtes, sagas abandonnées, vieux monos.",
+  "lien": "monos",
+  "jaquette": "monos.png",
+  "episodes": [
+    {
+      "nom": "Calendrier de l'Avent.mp3 2015 - Réception des listes",
+      "description" : "Dans le cadre du <a href='http://avent.netophonix.com/2015/'>Calendrier de l'Avent.mp3 2015</a> organisé par le <a href='http://netophonix.com/'>Netophonix</a>.<br><br>Comment l'atelier du Père Noël gère le courrier des enfants.",
+      "dateSortie" : "24 Décembre 2015",
+      "lien" : "./mp3/Reception_des_listes.mp3"
+    },
+    {
+      "nom": "Calendrier de l'Avent.mp3 2013 - Les entreprises qui font nos quotidiens - Spécial Noël",
+      "description" : "Dans le cadre du <a href='http://avent.netophonix.com/2013/'>Calendrier de l'Avent.mp3 2013</a> organisé par le <a href='http://netophonix.com/'>Netophonix</a>.<br><br>Documentaire sur le fonctionnement de la fameuse Christmas Company.",
+      "dateSortie" : "21 Décembre 2013",
+      "lien" : "./mp3/les_entreprises_qui_font_nos_quotidiens-Special_Noel.mp3"
+    },
+    {
+      "nom": "Calendrier de l'Avent.mp3 2012 - Noël en crise",
+      "description" : "Dans le cadre du <a href='http://avent.netophonix.com/2012/'>Calendrier de l'Avent.mp3 2012</a> organisé par le <a href='http://netophonix.com/'>Netophonix</a>.<br><br>Les caisses de l'atelier du Père Noël sont vides...",
+      "dateSortie" : "Décembre 2012",
+      "lien" : "./mp3/Noel_En_Crise.mp3"
+    },
+    {
+      "nom": "Calendrier de l'Avent.mp3 2011 - Crime à l'atelier",
+      "description" : "Dans le cadre du <a href='http://avent.netophonix.com/2011/'>Calendrier de l'Avent.mp3 2011</a> organisé par le <a href='http://netophonix.com/'>Netophonix</a>.<br><br>Un peu avant Noël, un Commandant et son Lieutenant sont appelés à l'atelier du Père Noël pour enquêter sur un horrible crime. Le bon déroulement de Noël est en jeu.",
+      "dateSortie" : "06 Décembre 2011",
+      "lien" : "./mp3/l_eclaireur_de_noel.mp3"
+    },
+    {
+      "nom": "World of Netophonix - Diwan",
+      "description" : "Adaptation de la publicité pour World of Warcraft où le principe est de se présenter en tant que créateur.",
+      "dateSortie" : "18 Avril 2011",
+      "lien" : "./mp3/World_Of_Netophonix-Diwan.mp3"
+    },
+    {
+      "nom": "Calendrier de l'Avent.mp3 2010 - L'éclaireur de Noël",
+      "description" : "Dans le cadre du <a href='http://avent.netophonix.com/2010/'>Calendrier de l'Avent.mp3 2010</a> organisé par le <a href='http://netophonix.com/'>Netophonix</a>.<br><br>Etre un lutin juste avant Noël est très pénible. Seul possibilité d'y échapper, devenir l'éclaireur du Père Noël le grand soir. Est ce sans risque ? Certainement pas !",
+      "dateSortie" : "25 Décembre 2010",
+      "lien" : "./mp3/l_eclaireur_de_noel.mp3"
+    },
+    {
+      "nom": "G.I.P.N(CT) - Episode 1",
+      "description" : "Episode 1 de la version mp3 du livre que vous pouvez trouver dans la rubrique Ecrits.<br><br>Le Groupe d'Intervetion de la Police Nationale s'occupe de missions dangereuses qui demande un savoir faire particulier...",
+      "lien" : "./mp3/G.I.P.N(C.T)-Episode01.mp3"
+    },
+    {
+      "nom": "G.I.P.N(CT) - Episode 2",
+      "description" : "Episode 2 de la version mp3 du livre que vous pouvez trouver dans la rubrique Ecrits.<br><br>Le Groupe d'Intervetion de la Police Nationale s'occupe de missions dangereuses qui demande un savoir faire particulier...",
+      "lien" : "./mp3/G.I.P.N(C.T)-Episode02.mp3"
+    },
+    {
+      "nom": "Projet A",
+      "description" : "1ère place au Concours d'illustration de <a href='http://wiki.netophonix.com/images/2/2a/Concours-mini-mono-edition-2.jpg'>cette image</a> organisé par le <a href='http://netophonix.com/'>Netophonix</a>. Premières tentatives de composition de musiques.",
+      "dateSortie" : "Juin 2010",
+      "lien" : "./mp3/projet_a.mp3"
+    },
+    {
+      "nom": "Calendrier de l'Avent.mp3 2009 - La Naissance du Père Noël",
+      "description" : "Dans le cadre du <a href='http://avent.netophonix.com/2009/'>Calendrier de l'Avent.mp3 2009</a> organisé par le <a href='http://netophonix.com/'>Netophonix</a>.<br><br>Et si Noël était revu à la sauce d'un blockbuster américain gonflé à l'action ? Ca donnerait certainement quelque chose dans ce genre...",
+      "dateSortie" : "Décembre 2009",
+      "lien" : "./mp3/La_Naissance_Du_Pere_Noel.mp3"
+    },
+    {
+      "nom": "Calendrier de l'Avent.mp3 2009 - How To - Père Noël",
+      "description" : "Dans le cadre du <a href='http://avent.netophonix.com/2009/'>Calendrier de l'Avent.mp3 2009</a> organisé par le <a href='http://netophonix.com/'>Netophonix</a>.<br><br>Comment devenir le parfait Père Noël ? Diwan vous donne toutes les bonnes astuces !",
+      "dateSortie" : "Décembre 2009",
+      "lien" : "./mp3/How_To-Pere_Noel.mp3"
+    },
+    {
+      "nom": "Le Musée de la Sagasphère",
+      "description" : "Réalisé pour le Journal de MacP3, Diwan se met dans la peau d'un guide du musée de la sagasphère.",
+      "dateSortie" : "Décembre 2009",
+      "lien" : "./mp3/le_musee_de_la_sagasphere.mp3"
+    },
+    {
+      "nom": "Ankou 2 - Le retour",
+      "description" : "Une deuxième présentation de l'équipe de football américain de l'Ankou de Rennes, au moment où Diwan en faisait partie.",
+      "dateSortie" : "2009",
+      "lien" : "./mp3/Ankou_2-Le-Retour.mp3"
+    },
+    {
+      "nom": "Calendrier de l'Avent.mp3 2008 - Joyeux Noël",
+      "description" : "Dans le cadre du <a href='http://avent.netophonix.com/2008/'>Calendrier de l'Avent.mp3 2008</a> organisé par le <a href='http://netophonix.com/'>Netophonix</a>.<br><br>Ecrit par <a href='http://mimiryudo.free.fr/'>Mimiryudo</a>, cette histoire vous entraîne dans un sympathique conte de Noël.",
+      "dateSortie" : "Décembre 2008",
+      "lien" : "./mp3/Mimiryudo-Joyeux_No%C3%ABl.mp3"
+    },
+    {
+      "nom": "Calendrier de l'Avent.mp3 2008 - L'Après Noël",
+      "description" : "Dans le cadre du <a href='http://avent.netophonix.com/2008/'>Calendrier de l'Avent.mp3 2008</a> organisé par le <a href='http://netophonix.com/'>Netophonix</a>.<br><br>Le Père Noël étant trop malade pour s'occuper de l'Après Noël, il décide de nommer un lutin pour le remplacer. Le pauvre ne sait pas ce qu'il l'attend !",
+      "dateSortie" : "Décembre 2008",
+      "lien" : "./mp3/diwan_l_apres_noel.mp3"
+    },
+    {
+      "nom": "Ankou",
+      "description" : "Une petite présentation de l'équipe de football américain de l'Ankou de Rennes, au moment où Diwan en faisait partie.",
+      "dateSortie" : "2008",
+      "lien" : "./mp3/Ankou.mp3"
+    }
+  ]
+}
