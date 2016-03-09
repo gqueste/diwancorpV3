@@ -1,6 +1,13 @@
 <div class="container-fluid container-principal container-page">
-  <h1>Jouer au Donjon En Folie</h1>
-  <h2>Capsule {{capsule.id}}</h2>
+  <div class="row container-element">
+    <ol class="breadcrumb">
+      <li><a href="#/">Accueil</a></li>
+      <li><a href="#/sagas">Sagas mp3</a></li>
+      <li class="active">Le Donjon En Folie</li>
+    </ol>
+    <h1>Jouer au Donjon En Folie</h1>
+    <h2>Capsule {{capsule.id}}</h2>
+  </div>
   <div ng-if="capsule.id === '00'" class="container-element">
     <p class="text-center">Bienvenue au debut de l'aventure !</p>
   </div>

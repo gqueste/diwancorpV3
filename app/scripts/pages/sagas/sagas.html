@@ -1,6 +1,12 @@
 <div class="container-fluid container-principal container-page">
-  <h1>Sagas mp3</h1>
-  <div class="row row-thumbnails">
+  <div class="row container-element">
+    <ol class="breadcrumb">
+      <li><a href="#/">Accueil</a></li>
+      <li class="active">Sagas mp3</li>
+    </ol>
+    <h1>Sagas mp3</h1>
+  </div>
+  <div class="row container-element row-thumbnails">
     <div class="saga-container col-sm-6 col-md-4" ng-repeat="saga in sagas">
       <div class="thumbnail thumbnail-sagas">
         <a ng-href="#/sagas/{{saga.lien}}"><img ng-src="images/{{saga.jaquette}}" alt="Jaquette pour {{saga.nom}}"></a>

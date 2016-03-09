@@ -11,6 +11,12 @@
 
 function DataService($http, $q){
 
+  var latestNews;
+  var sagas;
+  var ecrits;
+  var capsulesDef;
+  var partners;
+
   var statusUi = {
     'En cours' : {
       'labelClass' : 'label-primary'
@@ -41,21 +47,26 @@ function DataService($http, $q){
         }
       };
 
-      $http.get('./data/news.json').success(function(data){
-        if(data.hasOwnProperty('news')) {
+      if(!latestNews){
+        $http.get('./data/news.json').success(function(data){
+          if(data.hasOwnProperty('news')) {
 
-          for(var i = 0; i < data.news.length; i++){
-            data.news[i].image = types[data.news[i].newsType].image;
+            for(var i = 0; i < data.news.length; i++){
+              data.news[i].image = types[data.news[i].newsType].image;
+            }
+            latestNews = data.news;
+            resolve(data.news);
           }
-
-          resolve(data.news);
-        }
-        else{
-          reject(new Error('No object news in ./data/news.json'));
-        }
-      }).error(function(error){
-        reject(new Error('No access to ./data/news.json ' + error.message));
-      });
+          else{
+            reject(new Error('No object news in ./data/news.json'));
+          }
+        }).error(function(error){
+          reject(new Error('No access to ./data/news.json ' + error.message));
+        });
+      }
+      else {
+        resolve(latestNews);
+      }
     });
   }
 
@@ -65,20 +76,24 @@ function DataService($http, $q){
    */
   function getSagas(){
     return $q(function(resolve, reject) {
+      if(!sagas){
+        $http.get('./data/sagas.json').success(function(data){
 
-      $http.get('./data/sagas.json').success(function(data){
-
-        if(data.hasOwnProperty('sagas')) {
-          addStatutsClass(data.sagas);
-
-          resolve(data.sagas);
-        }
-        else{
-          reject(new Error('No object sagas in ./data/sagas.json'));
-        }
-      }).error(function(error){
-        reject(new Error('No access to ./data/sagas.json ' + error.message));
-      });
+          if(data.hasOwnProperty('sagas')) {
+            addStatutsClass(data.sagas);
+            sagas = data.sagas;
+            resolve(data.sagas);
+          }
+          else{
+            reject(new Error('No object sagas in ./data/sagas.json'));
+          }
+        }).error(function(error){
+          reject(new Error('No access to ./data/sagas.json ' + error.message));
+        });
+      }
+      else {
+        resolve(sagas);
+      }
     });
   }
 
@@ -107,21 +122,25 @@ function DataService($http, $q){
    */
   function getEcrits(){
     return $q(function(resolve, reject) {
-
-      $http.get('./data/ecrits.json').success(function(data){
-        if(data.hasOwnProperty('ecrits')) {
-          var ecrits = data.ecrits;
-          if(ecrits.hasOwnProperty('livres')){
-            addStatutsClass(ecrits.livres);
+      if(!ecrits){
+        $http.get('./data/ecrits.json').success(function(data){
+          if(data.hasOwnProperty('ecrits')) {
+            if(data.ecrits.hasOwnProperty('livres')){
+              addStatutsClass(data.ecrits.livres);
+            }
+            ecrits = data.ecrits;
+            resolve(data.ecrits);
           }
-          resolve(data.ecrits);
-        }
-        else{
-          reject(new Error('No object ecrits in ./data/ecrits.json'));
-        }
-      }).error(function(error){
-        reject(new Error('No access to ./data/ecrits.json ' + error.message));
-      });
+          else{
+            reject(new Error('No object ecrits in ./data/ecrits.json'));
+          }
+        }).error(function(error){
+          reject(new Error('No access to ./data/ecrits.json ' + error.message));
+        });
+      }
+      else {
+        resolve(ecrits);
+      }
     });
   }
 
@@ -161,17 +180,42 @@ function DataService($http, $q){
    */
   function getCapsulesDef(){
     return $q(function(resolve, reject) {
+      if(!capsulesDef){
+        $http.get('./data/sagas/def-next.json').success(function(data){
+          if(data.hasOwnProperty('next')) {
+            capsulesDef = data.next;
+            resolve(data.next);
+          }
+          else{
+            reject(new Error('No object presentation in ./data/sagas/def-next.json'));
+          }
+        }).error(function(error){
+          reject(new Error('No access to ./data/sagas/def-next.json ' + error.message));
+        });
+      }
+      else {
+        resolve(capsulesDef);
+      }
+    });
+  }
 
-      $http.get('./data/sagas/def-next.json').success(function(data){
-        if(data.hasOwnProperty('next')) {
-          resolve(data.next);
-        }
-        else{
-          reject(new Error('No object presentation in ./data/sagas/def-next.json'));
-        }
-      }).error(function(error){
-        reject(new Error('No access to ./data/sagas/def-next.json ' + error.message));
-      });
+  /**
+   * Get the object representing the partners
+   * @returns {promise}
+   */
+  function getPartenaires(){
+    return $q(function(resolve, reject){
+      if(!partners){
+        $http.get('./data/partners.json').success(function(data){
+          partners = data.partners;
+          resolve(partners);
+        }).error(function(error){
+          reject(new Error('No access to ./data/partners.json ' + error.message));
+        });
+      }
+      else {
+        resolve(partners);
+      }
 
     });
   }
@@ -185,7 +229,8 @@ function DataService($http, $q){
     getSaga : getSaga,
     getEcrits : getEcrits,
     getEcrit : getEcrit,
-    getCapsulesDef : getCapsulesDef
+    getCapsulesDef : getCapsulesDef,
+    getPartenaires : getPartenaires
   };
 }
 

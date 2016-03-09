@@ -1,0 +1,17 @@
+<div class="container-fluid container-principal container-page">
+  <div class="row container-element">
+    <ol class="breadcrumb">
+      <li><a href="#/">Accueil</a></li>
+      <li class="active">Partenaires</li>
+    </ol>
+    <h1>Partenaires</h1>
+  </div>
+  <div class="row container-element text-center">
+    <div ng-repeat="partenaire in partenaires">
+      <a ng-href="{{partenaire.lien}}"><img class="partnerImg" ng-src="{{partenaire.image}}"></a>
+      <h2>{{partenaire.nom}}</h2>
+      <p>{{partenaire.description}}</p>
+      <hr>
+    </div>
+  </div>
+</div>

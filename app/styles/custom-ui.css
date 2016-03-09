@@ -109,3 +109,12 @@ a:active{
 audio.saga{
   width: inherit;
 }
+
+.partnerImg{
+  max-width: 300px;
+  max-height: 100px;
+}
+
+.breadcrumb li.active{
+  color: #1F747B;
+}

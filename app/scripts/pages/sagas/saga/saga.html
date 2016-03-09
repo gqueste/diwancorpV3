@@ -1,5 +1,12 @@
 <div class="container-fluid container-principal container-page">
-  <h1>{{saga.nom}}</h1>
+  <div class="row container-element">
+    <ol class="breadcrumb">
+      <li><a href="#/">Accueil</a></li>
+      <li><a href="#/sagas">Sagas mp3</a></li>
+      <li class="active">{{saga.nom}}</li>
+    </ol>
+    <h1>{{saga.nom}}</h1>
+  </div>
   <div class="row container-element text-center">
     <img ng-src="images/{{saga.jaquette}}" alt="Jaquette pour {{saga.nom}}">
   </div>

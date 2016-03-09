@@ -1,0 +1,22 @@
+{
+  "partners":[
+    {
+      "nom": "Nétophonix",
+      "description": "Le forum des sagas mp3. Ecouter, critiquer, apprendre, créer, partager.",
+      "image": "http://netophonix.com/v2/images/netosphere.png",
+      "lien": "http://netophonix.com/"
+    },
+    {
+      "nom": "Le nid de Johnny",
+      "description": "Un pigeon penché sur l'actualité des sagas mp3",
+      "image": "http://www.lespiafsdeville.fr/leniddejohnny/theme/button_twitter.png",
+      "lien": "http://leniddejohnny.blogspot.com/"
+    },
+    {
+      "nom": "MagP3",
+      "description": "Le webzine consacré aux sagas mp3",
+      "image": "http://lemag.macp3.info/images/banniere.jpg",
+      "lien": "http://lemag.macp3.info/"
+    }
+  ]
+}

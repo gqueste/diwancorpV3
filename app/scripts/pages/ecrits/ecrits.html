@@ -1,6 +1,12 @@
 <div class="container-fluid container-principal container-page">
-  <h1>Ecrits</h1>
-  <div>
+  <div class="row container-element">
+    <ol class="breadcrumb">
+      <li><a href="#/">Accueil</a></li>
+      <li class="active">Ecrits</li>
+    </ol>
+    <h1>Ecrits</h1>
+  </div>
+  <div class="row container-element">
     <h2>Livres</h2>
     <div ng-repeat="livre in ecrits.livres">
       <div class="row container-element">
@@ -8,7 +14,7 @@
           <a ng-href="#/ecrits/{{livre.lien}}" ng-if="livre.jaquette"><img ng-src="images/{{livre.jaquette}}" alt="Jaquette pour {{livre.nom}}"></a>
         </div>
         <div class="col-md-9">
-          <a ng-href="#ecrits/{{livre.lien}}"><h3>{{livre.nom}}</h3></a>
+          <a ng-href="#/ecrits/{{livre.lien}}"><h3>{{livre.nom}}</h3></a>
           <h4>
             <span class="label label-sagas-status" ng-class='livre.statusClass'>{{livre.statut}}</span>
             <span class="label label-sagas-status label-default">{{livre.nbChapitres}} chapitre(s)</span>
@@ -19,7 +25,7 @@
       </div>
     </div>
   </div>
-  <div>
+  <div class="row container-element">
     <h2>Scénarios Jeu de Rôle</h2>
     <div ng-repeat="jdr in ecrits.scenariosJDR">
       <div class="row container-element">
