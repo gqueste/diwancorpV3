@@ -29,7 +29,7 @@
       <p ng-if="episode.duree"><i class="fa fa-clock-o"></i> {{episode.duree}}</p>
       <div class="row container-element">
         <div class="col-md-10">
-          <audio class="saga" src="{{getAudio(episode)}}" controls preload="metadata"></audio>
+          <audio class="saga" src="{{getAudio(episode)}}" controls preload="none"></audio>
         </div>
         <div class="col-md-2 text-center">
           <a ng-href="{{episode.lien}}" class="fa fa-download fa-4x" download></a>
@@ -62,7 +62,7 @@
       <div ng-if="bonus.type == 'mp3'">
         <div class="row container-element">
           <div class="col-md-10">
-            <audio class="saga" src="{{getAudio(bonus)}}" controls preload="metadata"></audio>
+            <audio class="saga" src="{{getAudio(bonus)}}" controls preload="none"></audio>
           </div>
           <div class="col-md-2 text-center">
             <a ng-href="{{bonus.lien}}" class="fa fa-download fa-4x" download></a>

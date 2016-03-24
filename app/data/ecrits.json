@@ -5,55 +5,37 @@
       {
         "nom": "Diabolti",
         "statut": "En cours",
-        "description": "description du livre",
+        "description": "Roman de Fantasy, commencé en 2010.<br><br>Sur l'île de Tornearde, la Confrérie des Magiciens tempère les relations belliqueuses des royaumes alentour. Seule capable de former les détenteurs de la Maîtrise aux arts de la Magie, ses plus éminents membres sont capables d'éliminer des armées d'un seul sortilège. Elle est souvent respectée, parfois crainte et toujours redoutée.<br>Torial est un de ces magiciens. Mais, à l'inverse de ses confrères, il n'a jamais été capable de jeter le moindre sortilège. Risée du puissant organisme, le Conseil l'a chargé de la tâche la plus ingrate de l'ordre. Il chasse des diablotins, de petits être malins qui prolifèrent sur l'île.<br>Il est le Diabolti.<br><br>Roman terminé, mais seulement quelques chapitres sont disponibles.",
         "lien" : "diabolti",
-        "jaquette" : "tanirm.png",
+        "jaquette" : "diabolti.png",
         "nbChapitres" : 3,
-        "nbPages" : 140
+        "nbPages" : 48
       },
       {
-        "nom": "Diabolti",
-        "statut": "En cours",
-        "description": "description du livre",
-        "lien" : "diabolti",
-        "jaquette" : "tanirm.png",
-        "nbChapitres" : 3,
-        "nbPages" : 140
-      },
-      {
-        "nom": "Diabolti",
-        "statut": "En cours",
-        "description": "description du livre",
-        "lien" : "diabolti",
-        "jaquette" : "tanirm.png",
-        "nbChapitres" : 3,
-        "nbPages" : 140
-      },
-      {
-        "nom": "Diabolti",
-        "statut": "En cours",
-        "description": "description du livre",
-        "lien" : "diabolti",
-        "jaquette" : "tanirm.png",
-        "nbChapitres" : 3,
-        "nbPages" : 140
+        "nom": "G.I.P.N(CT)",
+        "statut": "Terminé",
+        "description": "Roman d'action à la sauce humoristique, écrit entre 2010 et 2012.<br><br>Le Groupe d'Intervention de la Police Nationale est un groupe de policiers d'élite chargés d'intervenir dans des situations périlleuses, comme les prises d'otages.<br>Du posé tireur d'élite, le Capitaine Terrissand, à la belle mais redoutable Lieutenant Landre, ils mettent leurs vies en jeu à chaque mission.<br>Mais comment réagir lorsque le danger vient de là où on ne l'attend pas ?",
+        "lien" : "gipnct",
+        "jaquette" : "gipnct.png",
+        "nbChapitres" : 7,
+        "nbPages" : 167
       }
     ],
     "scenariosJDR":
     [
       {
         "nom" : "Shadowrun",
-        "description" : "Description du JDR",
-        "image" : "tanirm.png",
+        "description" : "Scénarios pour le Jeu de Rôle cyberpunk Shadowrun",
+        "image" : "shadowrun.png",
         "lien" : "shadowrun",
-        "nbScenarios" : 5
+        "nbScenarios" : 6
       },
       {
-        "nom" : "COPS",
-        "description" : "Description du JDR",
-        "image" : "tanirm.png",
-        "lien" : "cops",
-        "nbScenarios" : 5
+        "nom" : "Paper RPG Done Quick",
+        "description" : "Un système rapide d'initiation au Jeu de Rôle avec quelques scénarios.",
+        "image" : "prpgdq.png",
+        "lien" : "prpgdq",
+        "nbScenarios" : 2
       }
     ]
   }

@@ -1,0 +1,62 @@
+{
+  "nom" : "G.I.P.N(CT)",
+  "description" : "Roman d'action à la sauce humoristique, écrit entre 2010 et 2012.<br><br><br><em>Le Groupe d'Intervention de la Police Nationale est un groupe de policiers d'élite chargés d'intervenir dans des situations périlleuses, comme les prises d'otages.<br><br>Du posé tireur d'élite, le Capitaine Terrissand, à la belle mais redoutable Lieutenant Landre, ils mettent leurs vies en jeu à chaque mission.<br><br>Mais comment réagir lorsque le danger vient de là où on ne l'attend pas ?</em>",
+  "lien" : "gipnct",
+  "image" : "gipnct.png",
+  "chapitres" : [
+    {
+      "nom" : "Prologue",
+      "nbPages" : 15,
+      "dateSortie" : "15 Avril 2016",
+      "lien" : "./ecrits/G.I.P.N(CT)-Prologue.pdf"
+    },
+    {
+      "nom" : "Chapitre 1",
+      "nbPages" : 15,
+      "dateSortie" : "15 Décembre 2015",
+      "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_1.pdf"
+    },
+    {
+      "nom" : "Chapitre 2",
+      "nbPages" : 15,
+      "dateSortie" : "15 Avril 2016",
+      "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_2.pdf"
+    },
+    {
+      "nom" : "Chapitre 3",
+      "nbPages" : 15,
+      "dateSortie" : "15 Avril 2016",
+      "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_3.pdf"
+    },
+    {
+      "nom" : "Chapitre 4",
+      "nbPages" : 15,
+      "dateSortie" : "15 Avril 2016",
+      "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_4.pdf"
+    },
+    {
+      "nom" : "Chapitre 5",
+      "nbPages" : 15,
+      "dateSortie" : "15 Avril 2016",
+      "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_5.pdf"
+    },
+    {
+      "nom" : "Chapitre 6",
+      "nbPages" : 15,
+      "dateSortie" : "15 Avril 2016",
+      "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_6.pdf"
+    },
+    {
+      "nom" : "Chapitre 7",
+      "nbPages" : 15,
+      "dateSortie" : "15 Avril 2016",
+      "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_7.pdf"
+    },
+    {
+      "nom" : "Epilogue",
+      "nbPages" : 15,
+      "dateSortie" : "15 Avril 2016",
+      "lien" : "./ecrits/G.I.P.N(CT)-Epilogue.pdf"
+    }
+  ]
+}

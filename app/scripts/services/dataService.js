@@ -24,6 +24,9 @@ function DataService($http, $q){
     'Terminée' : {
       'labelClass' : 'label-success'
     },
+    'Terminé' : {
+      'labelClass' : 'label-success'
+    },
     'En pause' : {
       'labelClass' : 'label-warning'
     }

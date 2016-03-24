@@ -1,36 +1,32 @@
 {
   "nom" : "Diabolti",
-  "description" : "Description du bouquin",
+  "description" : "Roman de Fantasy, commencé en 2010.<br><br><br><em>Sur l'île de Tornearde, la Confrérie des Magiciens tempère les relations belliqueuses des royaumes alentour. Seule capable de former les détenteurs de la Maîtrise aux arts de la Magie, ses plus éminents membres sont capables d'éliminer des armées d'un seul sortilège. Elle est souvent respectée, parfois crainte et toujours redoutée.<br><br>Torial est un de ces magiciens. Mais, à l'inverse de ses confrères, il n'a jamais été capable de jeter le moindre sortilège. Risée du puissant organisme, le Conseil l'a chargé de la tâche la plus ingrate de l'ordre. Il chasse des diablotins, de petits être malins qui prolifèrent sur l'île.<br><br>Il est le Diabolti.</em><br><br><br>Roman terminé, mais seulement quelques chapitres sont disponibles.",
   "lien" : "diabolti",
-  "image" : "tanirm.png",
+  "image" : "diabolti.png",
   "chapitres" : [
     {
-      "nom" : "Chapitre 1",
-      "description" : "Description du chapitre",
+      "nom" : "Prologue",
       "nbPages" : 15,
-      "dateSortie" : "15 Décembre 2015",
-      "lien" : "lien.pdf"
+      "dateSortie" : "15 Avril 2016",
+      "lien" : "./ecrits/Diabolti-Prologue.pdf"
     },
     {
       "nom" : "Chapitre 1",
-      "description" : "Description du chapitre",
       "nbPages" : 15,
       "dateSortie" : "15 Décembre 2015",
-      "lien" : "lien.pdf"
+      "lien" : "./ecrits/Diabolti-Chapitre_1.pdf"
     },
     {
-      "nom" : "Chapitre 1",
-      "description" : "Description du chapitre",
+      "nom" : "Chapitre 2",
       "nbPages" : 15,
-      "dateSortie" : "15 Décembre 2015",
-      "lien" : "lien.pdf"
+      "dateSortie" : "15 Avril 2016",
+      "lien" : "./ecrits/Diabolti-Chapitre_2.pdf"
     },
     {
-      "nom" : "Chapitre 1",
-      "description" : "Description du chapitre",
+      "nom" : "Chapitre 3",
       "nbPages" : 15,
-      "dateSortie" : "15 Décembre 2015",
-      "lien" : "lien.pdf"
+      "dateSortie" : "15 Avril 2016",
+      "lien" : "./ecrits/Diabolti-Chapitre_3.pdf"
     }
   ]
 }
