@@ -16,9 +16,12 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'angular-google-analytics'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, AnalyticsProvider) {
+    AnalyticsProvider.setAccount('UA-66675155-1');
+    AnalyticsProvider.trackPages(false);
     $routeProvider
       .when('/', {
         templateUrl: '/scripts/pages/main/main.html',

@@ -9,10 +9,12 @@
    * Controller of the diwancorpApp
    */
 
-  function EcritCtrl($scope, NavigationService, DataService, $routeParams) {
+  function EcritCtrl($scope, NavigationService, DataService, $routeParams, Analytics) {
     NavigationService.setCurrentMenu('ecrits');
     $scope.ecrit = {};
     var idEcrit = $routeParams.idEcrit;
+
+    Analytics.trackPage('ecrits/'+idEcrit, 'Ecrit '+idEcrit);
 
     init();
 
@@ -34,5 +36,5 @@
     .module('diwancorpApp')
     .controller('EcritCtrl', EcritCtrl);
 
-  EcritCtrl.$inject = ['$scope', 'NavigationService', 'DataService', '$routeParams'];
+  EcritCtrl.$inject = ['$scope', 'NavigationService', 'DataService', '$routeParams', 'Analytics'];
 })();
