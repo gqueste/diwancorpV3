@@ -9,8 +9,9 @@
    * Controller of the diwancorpApp
    */
 
-  function SagasCtrl($scope, NavigationService, DataService, Analytics) {
+  function SagasCtrl($scope, NavigationService, TitleService, DataService, Analytics) {
     NavigationService.setCurrentMenu('sagas');
+    TitleService.setWindowTitle('Sagas mp3');
     Analytics.trackPage('sagas', 'Sagas');
 
     $scope.sagas = [];
@@ -42,5 +43,5 @@
     .module('diwancorpApp')
     .controller('SagasCtrl', SagasCtrl);
 
-  SagasCtrl.$inject = ['$scope', 'NavigationService', 'DataService', 'Analytics'];
+  SagasCtrl.$inject = ['$scope', 'NavigationService', 'TitleService', 'DataService', 'Analytics'];
 })();

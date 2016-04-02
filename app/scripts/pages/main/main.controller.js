@@ -8,8 +8,9 @@
  * Controller of the diwancorpApp
  */
 
-function MainCtrl(DataService, NavigationService, $scope, Analytics) {
+function MainCtrl(DataService, NavigationService, TitleService, $scope, Analytics) {
   NavigationService.setCurrentMenu('accueil');
+  TitleService.setWindowTitle('');
 
   Analytics.trackPage('/', 'Accueil');
 
@@ -33,4 +34,4 @@ function MainCtrl(DataService, NavigationService, $scope, Analytics) {
 angular.module('diwancorpApp')
   .controller('MainCtrl', MainCtrl);
 
-  MainCtrl.$inject=['DataService', 'NavigationService' ,'$scope', 'Analytics'];
+  MainCtrl.$inject=['DataService', 'NavigationService', 'TitleService' ,'$scope', 'Analytics'];

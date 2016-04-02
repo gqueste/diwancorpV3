@@ -8,8 +8,9 @@
  * Controller of the diwancorpApp
  */
 
-function AboutCtrl($scope, NavigationService, Analytics) {
+function AboutCtrl($scope, NavigationService, TitleService, Analytics) {
   NavigationService.setCurrentMenu('diwan');
+  TitleService.setWindowTitle('A propos');
   Analytics.trackPage('about', 'About');
 }
 
@@ -17,6 +18,4 @@ function AboutCtrl($scope, NavigationService, Analytics) {
 angular.module('diwancorpApp')
   .controller('AboutCtrl', AboutCtrl);
 
-AboutCtrl.$inject=['$scope', 'NavigationService', 'Analytics'];
-
-
+AboutCtrl.$inject=['$scope', 'NavigationService', 'TitleService', 'Analytics'];

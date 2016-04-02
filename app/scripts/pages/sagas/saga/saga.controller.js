@@ -9,7 +9,7 @@
    * Controller of the diwancorpApp
    */
 
-  function SagaCtrl($scope, NavigationService, DataService, $routeParams, $sce, Analytics) {
+  function SagaCtrl($scope, NavigationService, TitleService, DataService, $routeParams, $sce, Analytics) {
     NavigationService.setCurrentMenu('sagas');
 
     $scope.saga = {};
@@ -26,6 +26,7 @@
     function loadSaga(id){
       DataService.getSaga(id).then(function(data){
         $scope.saga = data;
+        TitleService.setWindowTitle($scope.saga.nom);
       }, function(error){
         console.log(error.message);
       });
@@ -41,5 +42,5 @@
     .module('diwancorpApp')
     .controller('SagaCtrl', SagaCtrl);
 
-  SagaCtrl.$inject = ['$scope', 'NavigationService', 'DataService', '$routeParams', '$sce', 'Analytics'];
+  SagaCtrl.$inject = ['$scope', 'NavigationService', 'TitleService', 'DataService', '$routeParams', '$sce', 'Analytics'];
 })();

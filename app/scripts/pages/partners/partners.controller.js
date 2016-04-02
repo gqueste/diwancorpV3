@@ -8,8 +8,9 @@
  * Controller of the diwancorpApp
  */
 
-function PartnersCtrl(DataService, NavigationService, $scope, Analytics) {
+function PartnersCtrl(DataService, NavigationService, TitleService, $scope, Analytics) {
   NavigationService.setCurrentMenu('partenaires');
+  TitleService.setWindowTitle('Partenaires');
 
   Analytics.trackPage('partners', 'Partenaires');
 
@@ -33,4 +34,4 @@ function PartnersCtrl(DataService, NavigationService, $scope, Analytics) {
 angular.module('diwancorpApp')
   .controller('PartnersCtrl', PartnersCtrl);
 
-PartnersCtrl.$inject=['DataService', 'NavigationService' ,'$scope', 'Analytics'];
+PartnersCtrl.$inject=['DataService', 'NavigationService', 'TitleService' ,'$scope', 'Analytics'];

@@ -118,3 +118,11 @@ audio.saga{
 .breadcrumb li.active{
   color: #1F747B;
 }
+
+.jumbotron{
+    border: 1px solid #dfd7ca;
+}
+
+#logo{
+    filter: brightness(90%);
+}
