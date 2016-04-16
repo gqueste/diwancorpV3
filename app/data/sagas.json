@@ -4,7 +4,7 @@
       "nom" : "Tanirm, Le Bâtard Assoiffé",
       "statut" : "En cours",
       "nbEpisodes" : "9",
-      "description" : "Une saga mp3 de fantasy riche où vous suivez les aventures de Tanirm, Bâtard du roi dans sa tentative pour monter sur le trône.",
+      "description" : "Une saga mp3 de fantasy riche où l'on suit les aventures de Tanirm, Bâtard du Roi, dans ses tentatives pour monter sur le trône.",
       "lien": "tlba",
       "jaquette": "tanirm.png"
     },
@@ -20,7 +20,7 @@
       "nom" : "Le Donjon En Folie",
       "nbEpisodes" : "26",
       "statut" : "En pause",
-      "description" : "Une saga mp3 dont vous êtes le héros. Menez une troupe d'aventuriers à travers les différents pièges du Donjon. A télécharger ou à jouer en ligne.",
+      "description" : "Une saga mp3 dont VOUS êtes le héros. Menez une troupe d'aventuriers à travers les différents pièges du Donjon. A télécharger ou à jouer en ligne.",
       "lien": "def",
       "jaquette": "def.png"
     },
@@ -28,7 +28,7 @@
       "nom" : "Azaltar et l'Ambre de Lecture",
       "nbEpisodes" : "6",
       "statut" : "Terminée",
-      "description" : "Une saga mp3 humoristique haute en couleurs. On y suit les mésaventures d'un mage noir victime d'une malédiction lui interdisant de lire. Mais lorsque l’Ambre de Lecture apparait sous son nez, le mage noir aperçoit enfin l’occasion de récupérer ses pouvoirs.",
+      "description" : "Une saga mp3 humoristique haute en couleurs. On y suit les mésaventures d'un mage noir victime d'une malédiction lui interdisant de lire. Jusqu'à ce que l’Ambre de Lecture apparaisse sous son nez.",
       "lien": "azaltar",
       "jaquette": "azaltar.png"
     },
@@ -52,7 +52,7 @@
       "nom" : "La quête de base",
       "statut" : "Terminée",
       "nbEpisodes" : "3",
-      "description" : "Un aventurier, Nidek, mage de niveau 13 ayant terminé sa quête, va chercher sa récompense, la main de la fille du roi. Cependant, lorsqu'il se présente devant le roi pour la récupérer, celui-ci lui apprend que la princesse a été capturée par l'horrible Mage Noir ! Nidek n'a plus qu'une chose à faire : aller la sauver des griffes du démon ! Mais il ne peut pas le faire seul, et recrute alors des compagnons qui ne seront pas de trop pour l'aider dans sa quête.",
+      "description" : "Un aventurier, Nidek, mage de niveau 13 ayant terminé sa quête, va chercher sa récompense, la main de la fille du roi. Cependant, lorsqu'il se présente devant le roi pour la récupérer, elle a été capturée par l'horrible Mage Noir !",
       "lien": "quete",
       "jaquette": "quete.png"
     },
@@ -60,7 +60,7 @@
       "nom" : "L'épée de Kischnu",
       "statut" : "Terminée",
       "nbEpisodes" : "5",
-      "description" : "Matthieu est un terrien comme les autres. Mais alors qu'il est viré de son travail, il se fait enlever par des humanoïdes extraterrestres. On lui apprend qu'il est le seul à pouvoir sauver l'univers en récupérant une épée : l'épée de Kischnu, déesse du bien disparue. Mais alors que le vaisseau fait route, il se fait attaquer par des personnes voulant elles aussi récupérer l'épée. Matthieu doit donc tout faire pour récupérer l'arme avant les autres pour sauver l'univers de sa destruction.",
+      "description" : "Matthieu est un terrien comme les autres. Mais alors qu'il est viré de son travail, il se fait enlever par des humanoïdes extraterrestres. On lui apprend qu'il est le seul à pouvoir sauver l'univers en récupérant une épée : l'épée de Kischnu.",
       "lien": "kischnu",
       "jaquette": "kischnu.png"
     },
