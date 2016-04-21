@@ -46,7 +46,9 @@
   margin-right: 10px;
 }
 
-
+.thumbnail-sagas a > img{
+  margin-top: 20px;
+}
 
 .videogular-container {
   width: 100%;
