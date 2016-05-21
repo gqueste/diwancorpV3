@@ -24,39 +24,39 @@ angular
     AnalyticsProvider.trackPages(false);
     $routeProvider
       .when('/', {
-        templateUrl: '/scripts/pages/main/main.html',
+        templateUrl: 'scripts/pages/main/main.html',
         controller: 'MainCtrl'
       })
       .when('/sagas', {
-        templateUrl: '/scripts/pages/sagas/sagas.html',
+        templateUrl: 'scripts/pages/sagas/sagas.html',
         controller: 'SagasCtrl'
       })
       .when('/sagas/:idSaga', {
-        templateUrl: '/scripts/pages/sagas/saga/saga.html',
+        templateUrl: 'scripts/pages/sagas/saga/saga.html',
         controller: 'SagaCtrl'
       })
       .when('/sagas/def/jeu', {
-        templateUrl: '/scripts/pages/sagas/def/def.html',
+        templateUrl: 'scripts/pages/sagas/def/def.html',
         controller: 'DefCtrl'
       })
       .when('/sagas/def/jeu/:idCapsule', {
-        templateUrl: '/scripts/pages/sagas/def/def.html',
+        templateUrl: 'scripts/pages/sagas/def/def.html',
         controller: 'DefCtrl'
       })
       .when('/ecrits', {
-        templateUrl: '/scripts/pages/ecrits/ecrits.html',
+        templateUrl: 'scripts/pages/ecrits/ecrits.html',
         controller: 'EcritsCtrl'
       })
       .when('/ecrits/:idEcrit', {
-        templateUrl: '/scripts/pages/ecrits/ecrit/ecrit.html',
+        templateUrl: 'scripts/pages/ecrits/ecrit/ecrit.html',
         controller: 'EcritCtrl'
       })
       .when('/diwan', {
-        templateUrl: '/scripts/pages/about/about.html',
+        templateUrl: 'scripts/pages/about/about.html',
         controller: 'AboutCtrl'
       })
       .when('/partenaires', {
-        templateUrl: '/scripts/pages/partners/partners.html',
+        templateUrl: 'scripts/pages/partners/partners.html',
         controller: 'PartnersCtrl'
       })
       .otherwise({
