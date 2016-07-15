@@ -31,7 +31,7 @@
     }
 
     $scope.getAudio = function(id){
-      return $sce.trustAsResourceUrl('./mp3/donjon-en-folie-'+id+'.mp3');
+      return $sce.trustAsResourceUrl('./mp3/donjon_en_folie-'+id+'.mp3');
     }
   }
 
