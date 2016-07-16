@@ -28,14 +28,14 @@
         "description" : "Scénarios pour le Jeu de Rôle cyberpunk Shadowrun",
         "image" : "shadowrun.png",
         "lien" : "shadowrun",
-        "nbScenarios" : 6
+        "nbScenarios" : 0
       },
       {
         "nom" : "Paper RPG Done Quick",
         "description" : "Un système rapide d'initiation au Jeu de Rôle avec quelques scénarios.",
         "image" : "prpgdq.png",
         "lien" : "prpgdq",
-        "nbScenarios" : 2
+        "nbScenarios" : 0
       }
     ]
   }

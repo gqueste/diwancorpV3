@@ -5,57 +5,51 @@
   "image" : "gipnct.png",
   "chapitres" : [
     {
-      "nom" : "Prologue",
-      "nbPages" : 15,
-      "dateSortie" : "15 Avril 2016",
-      "lien" : "./ecrits/G.I.P.N(CT)-Prologue.pdf"
-    },
-    {
       "nom" : "Chapitre 1",
-      "nbPages" : 15,
-      "dateSortie" : "15 Décembre 2015",
+      "nbPages" : 26,
+      "dateSortie" : "13 Février 2012",
       "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_1.pdf"
     },
     {
       "nom" : "Chapitre 2",
-      "nbPages" : 15,
-      "dateSortie" : "15 Avril 2016",
+      "nbPages" : 28,
+      "dateSortie" : "13 Février 2012",
       "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_2.pdf"
     },
     {
       "nom" : "Chapitre 3",
-      "nbPages" : 15,
-      "dateSortie" : "15 Avril 2016",
+      "nbPages" : 29,
+      "dateSortie" : "13 Février 2012",
       "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_3.pdf"
     },
     {
       "nom" : "Chapitre 4",
-      "nbPages" : 15,
-      "dateSortie" : "15 Avril 2016",
+      "nbPages" : 21,
+      "dateSortie" : "13 Février 2012",
       "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_4.pdf"
     },
     {
       "nom" : "Chapitre 5",
-      "nbPages" : 15,
-      "dateSortie" : "15 Avril 2016",
+      "nbPages" : 22,
+      "dateSortie" : "13 Février 2012",
       "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_5.pdf"
     },
     {
       "nom" : "Chapitre 6",
-      "nbPages" : 15,
-      "dateSortie" : "15 Avril 2016",
+      "nbPages" : 19,
+      "dateSortie" : "13 Février 2012",
       "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_6.pdf"
     },
     {
       "nom" : "Chapitre 7",
-      "nbPages" : 15,
-      "dateSortie" : "15 Avril 2016",
+      "nbPages" : 12,
+      "dateSortie" : "13 Février 2012",
       "lien" : "./ecrits/G.I.P.N(CT)-Chapitre_7.pdf"
     },
     {
       "nom" : "Epilogue",
-      "nbPages" : 15,
-      "dateSortie" : "15 Avril 2016",
+      "nbPages" : 10,
+      "dateSortie" : "13 Février 2012",
       "lien" : "./ecrits/G.I.P.N(CT)-Epilogue.pdf"
     }
   ]

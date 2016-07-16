@@ -1,23 +1,10 @@
 {
   "news":[
     {
-      "date" : "6 Mai 2015",
+      "date" : "15 Juillet 2016",
       "newsType" : "saga",
-      "titre" : "Titre de la news",
-      "descriptif" : "<p></p><p></p><p></p><p></p>Le descriptif de la news où il se passe des choses hvuzeuv zevuez zeyvuzevez ubzueb zeuvzeiub euzbeiubze ezubzeize uibzeib zeuibiebz uigzibe uibiuze <a href='#'>uibzeiu ezuibze</a> hvuzehu zehuze ze huz euhz gez ze uezvuez ze zehez zeh ezguez gze ezg ezuge guez gez ue z<p>dzdz</p>zdz<p></p>zdzd<p></p>"
-    },
-    {
-      "date" : "5 Mai 2015",
-      "newsType" : "jeu",
-      "titre" : "Titre de la news",
-      "descriptif" : "Le descriptif de la news où il se passe des choses"
-    }
-  ,
-    {
-      "date" : "5 Mai 2015",
-      "newsType" : "ecrit",
-      "titre" : "Titre de la news",
-      "descriptif" : "Le descriptif de la news où il se passe des choses"
+      "titre" : "Refonte du site",
+      "descriptif" : "Nouvelle monture du site. Quelques problèmes peuvent encore subvenir, n'hésitez pas à me contacter via Twitter pour que je puisse y remédier."
     }
   ]
 

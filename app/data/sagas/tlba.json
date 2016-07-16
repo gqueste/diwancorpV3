@@ -9,7 +9,7 @@
     {
       "nom" : "Pack 1",
       "description" : "Episodes 1 - 5",
-      "lien" : "Tanirm,_Le_Batard_Assoiffe-Pack_1.zip"
+      "lien" : "./mp3/Tanirm,_Le_Batard_Assoiffe-Pack_1.zip"
     }
   ],
   "episodes": [
@@ -32,7 +32,7 @@
       "docs" : [
         {
           "nom" : "Liste des musiques de l'épisode 1",
-          "lien" : "./musiques%20episode%201.pdf"
+          "lien" : "./mp3/musiques%20episode%201.pdf"
         }
       ]
     },
@@ -67,7 +67,7 @@
       "docs" : [
         {
           "nom" : "Liste des musiques de l'épisode 2",
-          "lien" : "./musiques%20episode%202.pdf"
+          "lien" : "./mp3/musiques%20episode%202.pdf"
         }
       ]
     },
@@ -94,7 +94,7 @@
       "docs" : [
         {
           "nom" : "Liste des musiques de l'épisode 3",
-          "lien" : "./musiques%20episode%203.pdf"
+          "lien" : "./mp3/musiques%20episode%203.pdf"
         }
       ]
     },
@@ -117,7 +117,7 @@
       "docs" : [
         {
           "nom" : "Liste des musiques de l'épisode 4",
-          "lien" : "./musiques%20episode%204.pdf"
+          "lien" : "./mp3/musiques%20episode%204.pdf"
         }
       ]
     },
@@ -152,7 +152,7 @@
       "docs" : [
         {
           "nom" : "Liste des musiques de l'épisode 5",
-          "lien" : "./musiques%20episode%205.pdf"
+          "lien" : "./mp3/musiques%20episode%205.pdf"
         }
       ]
     },
@@ -187,7 +187,7 @@
       "docs" : [
         {
           "nom" : "Liste des musiques de l'épisode 6",
-          "lien" : "./musiques%20episode%206.pdf"
+          "lien" : "./mp3/musiques%20episode%206.pdf"
         }
       ]
     },
@@ -222,7 +222,7 @@
       "docs" : [
         {
           "nom" : "Liste des musiques de l'épisode 7",
-          "lien" : "./musiques%20episode%207.pdf"
+          "lien" : "./mp3/musiques%20episode%207.pdf"
         }
       ]
     },
@@ -261,7 +261,7 @@
       "docs" : [
         {
           "nom" : "Liste des musiques de l'épisode 8",
-          "lien" : "./musiques%20episode%208.pdf"
+          "lien" : "./mp3/musiques%20episode%208.pdf"
         }
       ]
     },
@@ -313,7 +313,7 @@
       "docs" : [
         {
           "nom" : "Liste des musiques de l'épisode 9",
-          "lien" : "./musiques%20episode%209.pdf"
+          "lien" : "./mp3/musiques%20episode%209.pdf"
         }
       ]
     }
@@ -329,7 +329,7 @@
       "nom" : "La lamentation du maudit",
       "description" : "Voici une nouvelle dans l'univers de Tanirm, Le Bâtard Assoiffé.<br>Cette nouvelle n'a pas de lien direct avec la saga, mais une référence à cet écrit se trouve au début de l'épisode 4 de Tanirm, Le Bâtard Assoiffé.<br>Il s'agit d'une légende que l'on raconte au Royaume de Picel sur la provenance des étranges bruits surgissant des falaises près de la mer.",
       "type" : "pdf",
-      "lien" : "./La_Lamentation_Du_Maudit.pdf"
+      "lien" : "./mp3/La_Lamentation_Du_Maudit.pdf"
     }
   ]
 }
