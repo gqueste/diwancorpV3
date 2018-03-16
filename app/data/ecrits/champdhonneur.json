@@ -1,0 +1,20 @@
+{
+  "nom" : "Champ d'Honneur",
+  "description" : "Nouvelle de Fantasy, écrite entre Octobre et Décembre 2017.<br><br>Un vieil homme errant réussit à trouver du travail aux champs dans un petit village de campagne. Celui-ci se fait attaquer, réveillant de vieux démons chez le vieil homme.",
+  "lien" : "champdhonneur",
+  "image" : "champdhonneur.png",
+  "chapitres" : [
+    {
+      "nom" : "Champ d'Honneur - PDF",
+      "nbPages" : 28,
+      "dateSortie" : "16 Mars 2018",
+      "lien" : "./ecrits/ChampDHonneur.pdf"
+    },
+    {
+      "nom" : "Champ d'Honneur - EPub",
+      "nbPages" : 28,
+      "dateSortie" : "16 Mars 2018",
+      "lien" : "./ecrits/ChampDHonneur.epub"
+    }
+  ]
+}

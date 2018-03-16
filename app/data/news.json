@@ -1,6 +1,12 @@
 {
   "news":[
     {
+      "date" : "16 Mars 2018",
+      "newsType" : "ecrit",
+      "titre" : "Nouvelle - Champ d'Honneur",
+      "descriptif" : "Découvrez une nouvelle écrite fin 2017 : <a href='http://diwancorp.fr/#/ecrits/champdhonneur'>Champ d'Honneur</a>"
+    },
+    {
       "date" : "15 Juillet 2016",
       "newsType" : "saga",
       "titre" : "Refonte du site",

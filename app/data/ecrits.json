@@ -3,6 +3,15 @@
   {
     "livres":[
       {
+        "nom": "Champ d'Honneur",
+        "statut": "Terminé",
+        "description": "Nouvelle de Fantasy, écrite entre Octobre et Décembre 2017.<br><br>Un vieil homme errant réussit à trouver du travail aux champs dans un petit village de campagne. Celui-ci se fait attaquer, réveillant de vieux démons chez le vieil homme.",
+        "lien": "champdhonneur",
+        "jaquette" : "champdhonneur.png",
+        "nbChapitres": 1,
+        "nbPages": 28
+      },
+      {
         "nom": "Diabolti",
         "statut": "En cours",
         "description": "Roman de Fantasy, commencé en 2010.<br><br>Sur l'île de Tornearde, la Confrérie des Magiciens tempère les relations belliqueuses des royaumes alentour. Seule capable de former les détenteurs de la Maîtrise aux arts de la Magie, ses plus éminents membres sont capables d'éliminer des armées d'un seul sortilège. Elle est souvent respectée, parfois crainte et toujours redoutée.<br>Torial est un de ces magiciens. Mais, à l'inverse de ses confrères, il n'a jamais été capable de jeter le moindre sortilège. Risée du puissant organisme, le Conseil l'a chargé de la tâche la plus ingrate de l'ordre. Il chasse des diablotins, de petits être malins qui prolifèrent sur l'île.<br>Il est le Diabolti.<br><br>Roman terminé, mais seulement quelques chapitres sont disponibles.",
