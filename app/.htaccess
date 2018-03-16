@@ -541,3 +541,20 @@ FileETag None
 # <IfModule mod_headers.c>
 #    Header set Connection Keep-Alive
 # </IfModule>
+
+RedirectMatch ^/tlba$ /#/sagas/tlba
+RedirectMatch ^/tlba/(.*)$ /#/sagas/tlba
+RedirectMatch ^/pokemon$ /#/sagas/pokemon
+RedirectMatch ^/pokemon/(.*)$ /#/sagas/pokemon
+RedirectMatch ^/overdose$ /#/sagas/overdose
+RedirectMatch ^/overdose/(.*)$ /#/sagas/overdose
+RedirectMatch ^/def$ /#/sagas/def
+RedirectMatch ^/def/(.*)$ /#/sagas/def
+RedirectMatch ^/azltar$ /#/sagas/azltar
+RedirectMatch ^/azltar/(.*)$ /#/sagas/azltar
+RedirectMatch ^/mhf$ /#/sagas/mhf
+RedirectMatch ^/mhf/(.*)$ /#/sagas/mhf
+RedirectMatch ^/diabolti$ /#/ecrits/diabolti
+RedirectMatch ^/diabolti/(.*)$ /#/ecrits/diabolti
+RedirectMatch ^/gipnct$ /#/ecrits/gipnct
+RedirectMatch ^/gipnct/(.*)$ /#/ecrits/gipnct
